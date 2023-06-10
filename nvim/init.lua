@@ -29,7 +29,11 @@ local test_runners = {
 	node = "yarn test",
 }
 
- _G.test_by_lang = function()
+-- Keybindings general
+vim.keymap.set('i', 'jk', '<esc>')
+vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
+vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
+vim.keymap.set('n', '<leader>t', function()
 	local path = vim.fn.expand("%")
   local bufnr = vim.api.nvim_get_current_buf()
 	local extension = vim.bo[bufnr].filetype 
@@ -42,16 +46,9 @@ local test_runners = {
 		-- :silent ! tmux send-keys -t 0:0.0 'print("test")' Enter
 		-- tmux send-keys -t "$pane" C-z 'some -new command' Enter
 		local test_command = ":silent ! tmux send-keys -t " .. '"' .. pane .. '" ' .. "'" .. test_runners[extension] .. "'" .. " Enter"
-		return test_command
+		vim.cmd(test_command)
 	end
- end
-
-
--- Keybindings general
-vim.keymap.set('i', 'jk', '<esc>')
-vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
-vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
-vim.keymap.set('n', '<leader>t', '<cmd> test_by_lang()<cr>')
+end, {desc = "Test suite"})
 
 
 -- NETRW keybindigs
