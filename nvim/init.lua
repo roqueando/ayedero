@@ -18,7 +18,6 @@ vim.opt.wildignore:append "**/build/*"
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 15
 
-
 -- Leader
 vim.g.mapleader = ";"
 
@@ -30,24 +29,29 @@ local test_runners = {
 	node = "yarn test",
 }
 
-function test_by_lang()
+ _G.test_by_lang = function()
 	local path = vim.fn.expand("%")
   local bufnr = vim.api.nvim_get_current_buf()
 	local extension = vim.bo[bufnr].filetype 
-	if test_nearest_runners[extension] == nil then
-		return "Runner not supported"
+
+	if test_runners[extension] == nil then
+		print("Runner not supported")
+		return "" 
 	else
+		local pane = "2"
 		-- :silent ! tmux send-keys -t 0:0.0 'print("test")' Enter
-		local test_command = ":silent ! tmux send-keys -t" .. test_nearest_runners[extension]
+		-- tmux send-keys -t "$pane" C-z 'some -new command' Enter
+		local test_command = ":silent ! tmux send-keys -t " .. '"' .. pane .. '" ' .. "'" .. test_runners[extension] .. "'" .. " Enter"
 		return test_command
 	end
-end
+ end
 
 
 -- Keybindings general
 vim.keymap.set('i', 'jk', '<esc>')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
 vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
+vim.keymap.set('n', '<leader>t', '<cmd> test_by_lang()<cr>')
 
 
 -- NETRW keybindigs
