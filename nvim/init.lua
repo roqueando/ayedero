@@ -1,5 +1,6 @@
 vim.opt.syntax = "on"
 vim.opt.relativenumber = true
+vim.opt.number = true
 vim.opt.mouse = "c"
 vim.opt.wrap = true
 vim.opt.tabstop = 2
