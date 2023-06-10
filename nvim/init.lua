@@ -49,8 +49,6 @@ vim.keymap.set('i', 'jk', '<esc>')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
 vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
 
--- My Own
---vmap <C-c><C-c> "ry :call Send_to_Pane(@r)<CR>
 
 -- NETRW keybindigs
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', {desc = "File Explorer"})
