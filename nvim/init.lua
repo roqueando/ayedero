@@ -6,6 +6,7 @@ vim.opt.wrap = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.termguicolors = true
+vim.api.nvim_command('filetype plugin indent on')
 
 --
 vim.opt.path:remove "/usr/include"
@@ -14,6 +15,14 @@ vim.opt.wildignorecase = true
 vim.opt.wildignore:append "**/node_modules/*"
 vim.opt.wildignore:append "**/.git/*"
 vim.opt.wildignore:append "**/build/*"
+
+--
+vim.cmd([[silent! autocmd! filetypedetect BufRead,BufNewFile *.tf]])
+vim.cmd([[autocmd BufRead,BufNewFile *.hcl set filetype=hcl]])
+vim.cmd([[autocmd BufRead,BufNewFile .terraformrc,terraform.rc set filetype=hcl]])
+vim.cmd([[autocmd BufRead,BufNewFile *.tf,*.tfvars set filetype=terraform]])
+vim.cmd([[autocmd BufRead,BufNewFile *.tfstate,*.tfstate.backup set filetype=json]])
+
 
 -- NetRW Settings
 vim.g.netrw_banner = 0
