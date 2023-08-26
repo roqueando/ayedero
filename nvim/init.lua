@@ -28,6 +28,7 @@ vim.cmd([[autocmd BufRead,BufNewFile *.tfstate,*.tfstate.backup set filetype=jso
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.netrw_winsize = 15
+vim.g.netrw_localrmdir = 'rm -r'
 
 -- Leader
 vim.g.mapleader = ";"
@@ -44,7 +45,7 @@ local test_runners = {
 vim.keymap.set('i', 'jk', '<esc>')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
 vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
-vim.keymap.set('n', '<leader>t', function()
+vim.keymap.set('n', '<leader>T', function()
 	local path = vim.fn.expand("%")
   local bufnr = vim.api.nvim_get_current_buf()
 	local extension = vim.bo[bufnr].filetype 
