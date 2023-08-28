@@ -35,36 +35,52 @@ vim.g.mapleader = ";"
 
 -- Functions
 local test_runners = {
-	elixir = "mix test",
-	rust = "cargo test",
-	go = "go test ./...",
-	node = "yarn test",
+  elixir = "mix test",
+  rust = "cargo test",
+  go = "go test ./...",
+  node = "yarn test",
 }
 
 -- Keybindings general
 vim.keymap.set('i', 'jk', '<esc>')
-vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', {desc = "Save"})
-vim.keymap.set('n', '<leader>f', ':find ', {desc = "Find File"})
+vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = "Save" })
+vim.keymap.set('n', '<leader>f', ':find ', { desc = "Find File" })
 vim.keymap.set('n', '<leader>T', function()
-	local path = vim.fn.expand("%")
+  local path = vim.fn.expand("%")
   local bufnr = vim.api.nvim_get_current_buf()
-	local extension = vim.bo[bufnr].filetype 
+  local extension = vim.bo[bufnr].filetype
 
-	if test_runners[extension] == nil then
-		print("Runner not supported")
-		return "" 
-	else
-		local pane = "2"
-		-- :silent ! tmux send-keys -t 0:0.0 'print("test")' Enter
-		-- tmux send-keys -t "$pane" C-z 'some -new command' Enter
-		local test_command = ":silent ! tmux send-keys -t " .. '"' .. pane .. '" ' .. "'" .. test_runners[extension] .. "'" .. " Enter"
-		vim.cmd(test_command)
-	end
-end, {desc = "Test suite"})
+  if test_runners[extension] == nil then
+    print("Runner not supported")
+    return ""
+  else
+    local pane = "2"
+    -- :silent ! tmux send-keys -t 0:0.0 'print("test")' Enter
+    -- tmux send-keys -t "$pane" C-z 'some -new command' Enter
+    local test_command = ":silent ! tmux send-keys -t " ..
+        '"' .. pane .. '" ' .. "'" .. test_runners[extension] .. "'" .. " Enter"
+    vim.cmd(test_command)
+  end
+end, { desc = "Test suite" })
 
+
+function CreateFileInNewTab()
+    local current_directory = vim.fn.expand('%:p:h')
+    
+    local file_name = vim.fn.input("New filename: ")
+    
+    if file_name ~= "" then
+        local file_path = current_directory .. '/' .. file_name
+        local command = string.format("tabedit %s", file_path)
+        vim.cmd(command)
+    else
+        print("Invalid filename")
+    end
+end
+vim.keymap.set('n', '<leader>nn', CreateFileInNewTab, { desc = "Create new file in current directory" })
 
 -- NETRW keybindigs
-vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', {desc = "File Explorer"})
+vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = "File Explorer" })
 
 -- CMD Vim commands
 vim.cmd [[highlight Normal ctermbg=none]]
