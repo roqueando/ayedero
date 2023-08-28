@@ -15,6 +15,15 @@ vim.opt.wildignorecase = true
 vim.opt.wildignore:append "**/node_modules/*"
 vim.opt.wildignore:append "**/.git/*"
 vim.opt.wildignore:append "**/build/*"
+--
+local rg_installed = vim.fn.executable("rg") == 1
+
+if rg_installed then
+    vim.api.nvim_exec([[
+        set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
+        set grepformat=%f:%l:%c:%m
+    ]], false)
+end
 
 --
 vim.cmd([[silent! autocmd! filetypedetect BufRead,BufNewFile *.tf]])
@@ -22,7 +31,6 @@ vim.cmd([[autocmd BufRead,BufNewFile *.hcl set filetype=hcl]])
 vim.cmd([[autocmd BufRead,BufNewFile .terraformrc,terraform.rc set filetype=hcl]])
 vim.cmd([[autocmd BufRead,BufNewFile *.tf,*.tfvars set filetype=terraform]])
 vim.cmd([[autocmd BufRead,BufNewFile *.tfstate,*.tfstate.backup set filetype=json]])
-
 
 -- NetRW Settings
 vim.g.netrw_banner = 0
@@ -55,8 +63,6 @@ vim.keymap.set('n', '<leader>T', function()
     return ""
   else
     local pane = "2"
-    -- :silent ! tmux send-keys -t 0:0.0 'print("test")' Enter
-    -- tmux send-keys -t "$pane" C-z 'some -new command' Enter
     local test_command = ":silent ! tmux send-keys -t " ..
         '"' .. pane .. '" ' .. "'" .. test_runners[extension] .. "'" .. " Enter"
     vim.cmd(test_command)
@@ -64,6 +70,7 @@ vim.keymap.set('n', '<leader>T', function()
 end, { desc = "Test suite" })
 
 
+-- New file in new tab
 function CreateFileInNewTab()
     local current_directory = vim.fn.expand('%:p:h')
     
@@ -78,6 +85,22 @@ function CreateFileInNewTab()
     end
 end
 vim.keymap.set('n', '<leader>nn', CreateFileInNewTab, { desc = "Create new file in current directory" })
+
+-- Live grep
+function live_grep_directory()
+	local text_to_find = vim.fn.input("Text to find [all project]: ")
+	if text_to_find ~= "" then
+		local command = string.format("vimgrep /%s/ *", text_to_find)
+		vim.cmd(command)
+	else
+		print("Text should not be empty")
+	end
+end
+vim.keymap.set('n', '<leader>g', live_grep_directory, {desc = "Find text in all directory"})
+vim.keymap.set('n', 'gn', ":cnext <cr>", {desc = "Next match on vimgrep"})
+vim.keymap.set('n', 'gp', ":cprev <cr>", {desc = "Previous match on vimgrep"})
+vim.keymap.set('n', 'gf', ":cfirst <cr>", {desc = "First match on vimgrep"})
+vim.keymap.set('n', 'gl', ":clast <cr>", {desc = "Last match on vimgrep"})
 
 -- NETRW keybindigs
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = "File Explorer" })
