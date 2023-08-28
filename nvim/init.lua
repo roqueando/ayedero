@@ -10,11 +10,13 @@ vim.api.nvim_command('filetype plugin indent on')
 
 --
 vim.opt.path:remove "/usr/include"
+vim.opt.path:append "."
 vim.opt.path:append "**"
 vim.opt.wildignorecase = true
 vim.opt.wildignore:append "**/node_modules/*"
 vim.opt.wildignore:append "**/.git/*"
 vim.opt.wildignore:append "**/build/*"
+vim.opt.wildignore:append "**/dist/*" -- For dist builds like typescript
 --
 local rg_installed = vim.fn.executable("rg") == 1
 
@@ -104,6 +106,7 @@ vim.keymap.set('n', 'gl', ":clast <cr>", {desc = "Last match on vimgrep"})
 
 -- NETRW keybindigs
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = "File Explorer" })
+vim.g.editorconfig = false
 
 -- CMD Vim commands
 vim.cmd [[highlight Normal ctermbg=none]]
