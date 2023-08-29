@@ -53,7 +53,6 @@ local test_runners = {
 -- Keybindings general
 vim.keymap.set('i', 'jk', '<esc>')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = "Save" })
-vim.keymap.set('n', '<leader>f', ':find ', { desc = "Find File" })
 vim.keymap.set('n', '<leader>T', function()
   local path = vim.fn.expand("%")
   local bufnr = vim.api.nvim_get_current_buf()
@@ -88,6 +87,45 @@ end
 
 vim.keymap.set('n', '<leader>nn', CreateFileInNewTab, { desc = "Create new file in current directory" })
 
+-- File search
+function file_search()
+	local filename = vim.fn.input("search file [all project]: ")
+	if filename ~= "" then
+		local cmd = string.format("rg --vimgrep --files \"%s\"", filename)
+		local result = vim.fn.systemlist(cmd)
+		if #result > 0 then
+			vim.fn.setqflist({}, ' ', {
+				title = 'file search: ' .. filename,
+				lines = result
+			})
+			vim.fn.execute("copen")
+		else
+			print("No files found :(")
+		end
+	else
+		print("Filename should not be empty >:(")
+	end
+end
+vim.keymap.set('n', '<leader>f', file_search, { desc = "Find File" })
+
+
+-- Define a function to open the copied filename in a new tab
+function OpenFileInNewTab()
+    -- Get the current quickfix entry
+    local entry = vim.fn.getqflist({idx = vim.fn.line('.') - 1})[1]
+    
+    -- Check if the entry is valid and contains a filename
+    if entry and entry.filename and entry.filename ~= '' then
+        -- Open the filename in a new tab
+        vim.fn.execute('tabnew ' .. vim.fn.shellescape(entry.filename))
+    else
+        print("No valid filename in the quickfix entry.")
+    end
+end
+
+-- Map a key to open the copied filename in a new tab
+vim.api.nvim_set_keymap('n', '<Leader>o', ':lua OpenFileInNewTab()<CR>', { noremap = true })
+
 -- Live grep
 function live_grep_directory()
   local text_to_find = vim.fn.input("Text to find [all project]: ")
@@ -100,8 +138,6 @@ function live_grep_directory()
     print("Text should not be empty")
   end
 end
-
-
 vim.keymap.set('n', '<leader>g', live_grep_directory, { desc = "Find text in all directory" })
 vim.keymap.set('n', 'gn', ":cnext <cr>", { desc = "Next match on vimgrep" })
 vim.keymap.set('n', 'gp', ":cprev <cr>", { desc = "Previous match on vimgrep" })
