@@ -21,10 +21,9 @@ vim.opt.wildignore:append "**/dist/*" -- For dist builds like typescript
 local rg_installed = vim.fn.executable("rg") == 1
 
 if rg_installed then
-    vim.api.nvim_exec([[
-        set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
-        set grepformat=%f:%l:%c:%m
-    ]], false)
+	vim.o.grepprg = "rg --vimgrep" 
+	vim.o.grepformat = "%f:%l:%c:%m"
+
 end
 
 --
@@ -74,35 +73,40 @@ end, { desc = "Test suite" })
 
 -- New file in new tab
 function CreateFileInNewTab()
-    local current_directory = vim.fn.expand('%:p:h')
-    
-    local file_name = vim.fn.input("New filename: ")
-    
-    if file_name ~= "" then
-        local file_path = current_directory .. '/' .. file_name
-        local command = string.format("tabedit %s", file_path)
-        vim.cmd(command)
-    else
-        print("Invalid filename")
-    end
+  local current_directory = vim.fn.expand('%:p:h')
+
+  local file_name = vim.fn.input("New filename: ")
+
+  if file_name ~= "" then
+    local file_path = current_directory .. '/' .. file_name
+    local command = string.format("tabedit %s", file_path)
+    vim.cmd(command)
+  else
+    print("Invalid filename")
+  end
 end
+
 vim.keymap.set('n', '<leader>nn', CreateFileInNewTab, { desc = "Create new file in current directory" })
 
 -- Live grep
 function live_grep_directory()
-	local text_to_find = vim.fn.input("Text to find [all project]: ")
-	if text_to_find ~= "" then
-		local command = string.format("vimgrep /%s/ *", text_to_find)
-		vim.cmd(command)
-	else
-		print("Text should not be empty")
-	end
+  local text_to_find = vim.fn.input("Text to find [all project]: ")
+  if text_to_find ~= "" then
+    local command = string.format("rg --vimgrep \"%s\" .", text_to_find)
+		vim.api.nvim_command("cexpr system('" .. command .. "')")
+		vim.api.nvim_command("copen")
+    --vim.cmd(command)
+  else
+    print("Text should not be empty")
+  end
 end
-vim.keymap.set('n', '<leader>g', live_grep_directory, {desc = "Find text in all directory"})
-vim.keymap.set('n', 'gn', ":cnext <cr>", {desc = "Next match on vimgrep"})
-vim.keymap.set('n', 'gp', ":cprev <cr>", {desc = "Previous match on vimgrep"})
-vim.keymap.set('n', 'gf', ":cfirst <cr>", {desc = "First match on vimgrep"})
-vim.keymap.set('n', 'gl', ":clast <cr>", {desc = "Last match on vimgrep"})
+
+
+vim.keymap.set('n', '<leader>g', live_grep_directory, { desc = "Find text in all directory" })
+vim.keymap.set('n', 'gn', ":cnext <cr>", { desc = "Next match on vimgrep" })
+vim.keymap.set('n', 'gp', ":cprev <cr>", { desc = "Previous match on vimgrep" })
+vim.keymap.set('n', 'gf', ":cfirst <cr>", { desc = "First match on vimgrep" })
+vim.keymap.set('n', 'gl', ":clast <cr>", { desc = "Last match on vimgrep" })
 
 -- NETRW keybindigs
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore<cr>', { desc = "File Explorer" })
