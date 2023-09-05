@@ -1,13 +1,14 @@
 #!/bin/sh
 
-echo "Installing Neovim [Ayedero] ..."
+echo "[AYEDERO] config"
+echo "Installing Helix [...]"
 
-ln -s ~/ayedero/nvim ~/.config/nvim
+ln -s ~/ayedero/config.toml ~/.config/helix/config.toml
 
-echo "Neovim [Ayedero] Installed!"
+echo "Helix [OK]"
 
-echo "Installing Tmux Config [Ayedero]"
+echo "Installing Tmux [...]"
 
 ln -s ~/ayedero/.tmux.conf ~/.tmux.conf
 
-echo "Tmux Config [Ayedero] Installed!"
+echo "Tmux [OK]"

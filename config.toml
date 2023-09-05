@@ -1,0 +1,36 @@
+theme = "dark_plus"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+color-modes = true
+
+[editor.lsp]
+enable = true
+snippets = false
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[keys.insert]
+j = {k = "normal_mode"}
+
+[keys.normal]
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph"
+g = {a = "code_action"}
+V = ["extend_line_below", "select_mode"]
+K = "hover"
+
+[keys.normal.";"]
+f = "file_picker"
+w = ":w"
+q = ":bc"
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
