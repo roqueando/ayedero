@@ -9,4 +9,4 @@ inoremap jk <esc>
 let mapleader = ";"
 
 nnoremap <leader>w :w<cr>
-nnoremap <leader>e :Lexplore<cr>
+nnoremap <leader>e :Explore<cr>
