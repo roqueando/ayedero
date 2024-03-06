@@ -1,4 +1,4 @@
-theme = "dark_plus"
+theme = "dracula"
 
 [editor]
 line-number = "relative"
@@ -34,3 +34,4 @@ q = ":bc"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
+
