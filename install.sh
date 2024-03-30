@@ -13,8 +13,7 @@ ln -s ~/ayedero/.tmux.conf ~/.tmux.conf
 
 echo "Tmux [OK]"
 
-echo "Installing Neovim & VIM [...]"
-ln -s $HOME/ayedero/.vimrc $HOME/.config/nvim/init.vim
+echo "Installing VIM [...]"
 ln -s $HOME/ayedero/.vimrc $HOME/.vimrc
 
-echo "Neovim & VIM [OK]"
+echo "VIM [OK]"
