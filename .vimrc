@@ -4,6 +4,8 @@ Plug 'sheerun/vim-polyglot' " just to get syntax highlight easy
 Plug 'ntk148v/habamax.nvim' " habamax for neovim (just exists in vim)
 Plug 'tpope/vim-endwise' " when using ruby or elixir for closing def
 Plug 'jiangmiao/auto-pairs' " just to close brackets without efforts
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 filetype plugin indent on
@@ -69,3 +71,8 @@ function! CreateQuickfixDoc()
 endfunction
 vnoremap <silent>K :call CreateQuickfixDoc()<CR>
 ""================================================== 
+
+"" FZF
+let g:fzf_vim = {}
+let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
+nnoremap <leader>f :Files<CR>
