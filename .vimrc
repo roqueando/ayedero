@@ -76,3 +76,5 @@ vnoremap <silent>K :call CreateQuickfixDoc()<CR>
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
