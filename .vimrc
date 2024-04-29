@@ -9,6 +9,7 @@ Plug 'junegunn/fzf.vim' " FZF for finding stuff
 Plug 'dense-analysis/ale' " for code analysis by compiled langs (Go, Rust, etc)
 Plug 'fatih/vim-go' " for go stuff
 Plug 'ellisonleao/gruvbox.nvim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 filetype plugin indent on
