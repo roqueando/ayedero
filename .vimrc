@@ -5,7 +5,10 @@ Plug 'ntk148v/habamax.nvim' " habamax for neovim (just exists in vim)
 Plug 'tpope/vim-endwise' " when using ruby or elixir for closing def
 Plug 'jiangmiao/auto-pairs' " just to close brackets without efforts
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf.vim' " FZF for finding stuff
+Plug 'dense-analysis/ale' " for code analysis by compiled langs (Go, Rust, etc)
+Plug 'fatih/vim-go' " for go stuff
+Plug 'ellisonleao/gruvbox.nvim'
 call plug#end()
 
 filetype plugin indent on
@@ -28,8 +31,10 @@ set termguicolors
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set omnifunc=syntaxcomplete#Complete
+set mouse=c
 
-colorscheme habamax
+colorscheme gruvbox
 
 let mapleader = ";"
 
@@ -41,6 +46,7 @@ nnoremap <leader>f :find
 nnoremap gn :tabnext <CR>
 nnoremap gp :tabprevious <CR>
 inoremap jk <esc>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 ""================================================== 
 
 
@@ -56,23 +62,14 @@ augroup QuickfixMappings
 augroup END
 ""================================================== 
 
-"" show in tmux split docs for CPP ====================
-command! -nargs=+ Cppman silent! call system("tmux split-window cppman " . expand(<q-args>))
-autocmd FileType cpp nnoremap <silent><buffer> K <Esc>:Cppman <cword><CR>
+
+"" Only Go things
+autocmd FileType go nnoremap <silent>K :GoDoc<CR>
+autocmd FileType go nnoremap <silent><leader>t :GoTestFunc<CR>
+autocmd FileType go nnoremap <silent>gd :GoDef<CR>
 ""================================================== 
 
-"" Quickfix com docs em Go ==================== 
-function! CreateQuickfixDoc()
-  normal! gv"xy
-  let word = getreg('x')
-
-  copen
-  cexpr system("go doc " . word)
-endfunction
-vnoremap <silent>K :call CreateQuickfixDoc()<CR>
-""================================================== 
-
-"" FZF
+"" Only FZF things
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
