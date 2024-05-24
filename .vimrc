@@ -4,12 +4,11 @@ Plug 'sheerun/vim-polyglot' " just to get syntax highlight easy
 Plug 'ntk148v/habamax.nvim' " habamax for neovim (just exists in vim)
 Plug 'tpope/vim-endwise' " when using ruby or elixir for closing def
 Plug 'jiangmiao/auto-pairs' " just to close brackets without efforts
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim' " FZF for finding stuff
-Plug 'dense-analysis/ale' " for code analysis by compiled langs (Go, Rust, etc)
-Plug 'fatih/vim-go' " for go stuff
-Plug 'ellisonleao/gruvbox.nvim'
+"Plug 'dense-analysis/ale' " for code analysis by compiled langs (Go, Rust, etc)
 Plug 'tpope/vim-fugitive'
+Plug 'kien/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 filetype plugin indent on
@@ -35,7 +34,7 @@ set expandtab
 set omnifunc=syntaxcomplete#Complete
 set mouse=c
 
-colorscheme gruvbox
+colorscheme habamax
 
 let mapleader = ";"
 
@@ -73,6 +72,7 @@ autocmd FileType go nnoremap <silent>gd :GoDef<CR>
 "" Only FZF things
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
-nnoremap <leader>f :Files<CR>
+nnoremap <leader>f :CtrlP<CR>
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
+let g:airline_theme='bubblegum'
