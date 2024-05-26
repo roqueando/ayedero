@@ -9,6 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 filetype plugin indent on
@@ -34,7 +35,7 @@ set expandtab
 set omnifunc=syntaxcomplete#Complete
 set mouse=c
 
-colorscheme habamax
+colorscheme gruvbox
 
 let mapleader = ";"
 
