@@ -16,6 +16,7 @@ filetype plugin indent on
 syntax enable
 
 " Sets
+set tags=$HOME/.tags
 set background=dark
 set relativenumber
 set number
@@ -77,3 +78,6 @@ nnoremap <leader>f :CtrlP<CR>
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 let g:airline_theme='bubblegum'
+
+"" Ctags auto generate
+" au BufWritePost *.c,*.cpp,*.h,*.py silent! !ctags -R -f $HOME/.tags . &
