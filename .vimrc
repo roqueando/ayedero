@@ -75,5 +75,6 @@ autocmd FileType go nnoremap <silent>gd :GoDef<CR>
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
+nnoremap <leader>S :Rg<CR>
 ""================================================== 
 let g:airline_theme='gruvbox'
