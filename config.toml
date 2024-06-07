@@ -9,6 +9,8 @@ color-modes = true
 [editor.lsp]
 enable = true
 snippets = false
+display-messages = true
+display-inlay-hints = true
 
 [editor.soft-wrap]
 enable = true

@@ -1,22 +1,22 @@
 set nocompatible
 call plug#begin()
 Plug 'sheerun/vim-polyglot' " just to get syntax highlight easy
-Plug 'ntk148v/habamax.nvim' " habamax for neovim (just exists in vim)
 Plug 'tpope/vim-endwise' " when using ruby or elixir for closing def
 Plug 'jiangmiao/auto-pairs' " just to close brackets without efforts
-"Plug 'dense-analysis/ale' " for code analysis by compiled langs (Go, Rust, etc)
-Plug 'tpope/vim-fugitive'
-Plug 'kien/ctrlp.vim'
+Plug 'airblade/vim-gitgutter' " just to I know where I fucked up earlier
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim' " for search things
+Plug 'morhetz/gruvbox' " gruvbox -> ALWAYS
+Plug 'ellisonleao/gruvbox.nvim' " gruvbox -> for neovim
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'morhetz/gruvbox'
 call plug#end()
 
 filetype plugin indent on
 syntax enable
 
 " Sets
-set tags=$HOME/.tags
+set tags=.tags
 set background=dark
 set relativenumber
 set number
@@ -74,10 +74,6 @@ autocmd FileType go nnoremap <silent>gd :GoDef<CR>
 "" Only FZF things
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
-nnoremap <leader>f :CtrlP<CR>
-let &t_SI = "\e[6 q"
-let &t_EI = "\e[2 q"
-let g:airline_theme='bubblegum'
-
-"" Ctags auto generate
-" au BufWritePost *.c,*.cpp,*.h,*.py silent! !ctags -R -f $HOME/.tags . &
+nnoremap <leader>f :Files<CR>
+""================================================== 
+let g:airline_theme='gruvbox'
