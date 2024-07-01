@@ -15,5 +15,6 @@ echo "Tmux [OK]"
 
 echo "Installing VIM [...]"
 ln -s $HOME/ayedero/.vimrc $HOME/.vimrc
+ln -s $HOME/ayedero/.vimrc $HOME/.config/nvim/init.vim
 
 echo "VIM [OK]"
