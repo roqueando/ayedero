@@ -5,12 +5,15 @@ line-number = "relative"
 mouse = false
 bufferline = "multiple"
 color-modes = true
+auto-completion = false
 
 [editor.lsp]
 enable = true
 snippets = false
 display-messages = true
 display-inlay-hints = true
+auto-signature-help = false
+#display-signature-help-docs = false
 
 [editor.soft-wrap]
 enable = true
@@ -20,6 +23,7 @@ insert = "bar"
 
 [keys.insert]
 j = {k = "normal_mode"}
+C-n = "signature_help"
 
 [keys.normal]
 "{" = "goto_prev_paragraph"
@@ -32,6 +36,8 @@ K = "hover"
 f = "file_picker"
 w = ":w"
 q = ":bc"
+e = ":sh zellij run -f -x 10% -y 10% --width 80% --height 80% -- bash ~/ayedero/scripts/yazi-picker.sh"
+
 [editor.statusline]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"

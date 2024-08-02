@@ -10,6 +10,7 @@ Plug 'morhetz/gruvbox' " gruvbox -> ALWAYS
 Plug 'ellisonleao/gruvbox.nvim' " gruvbox -> for neovim
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 filetype plugin indent on
@@ -17,6 +18,8 @@ syntax enable
 
 " Sets
 set tags=.tags
+set clipboard=unnamedplus
+set rtp^="/home/omolu/.opam/default/share/ocp-indent/vim"
 set background=dark
 set relativenumber
 set number
@@ -78,3 +81,16 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>S :Rg<CR>
 ""================================================== 
 let g:airline_theme='gruvbox'
+let g:python3_host_prog = '/home/omolu/miniconda3/bin/python'
+
+"" Magma
+nnoremap <silent><expr> <LocalLeader>r  :MagmaEvaluateOperator<CR>
+nnoremap <silent>       <LocalLeader>rr :MagmaEvaluateLine<CR>
+xnoremap <silent>       <LocalLeader>r  :<C-u>MagmaEvaluateVisual<CR>
+nnoremap <silent>       <LocalLeader>rc :MagmaReevaluateCell<CR>
+nnoremap <silent>       <LocalLeader>rd :MagmaDelete<CR>
+nnoremap <silent>       <LocalLeader>ro :MagmaShowOutput<CR>
+
+let g:magma_automatically_open_output = v:false
+let g:magma_image_provider = "ueberzug"
+
