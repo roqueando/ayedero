@@ -11,6 +11,9 @@ Plug 'ellisonleao/gruvbox.nvim' " gruvbox -> for neovim
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Mofiqul/vscode.nvim'
+Plug 'martinsione/darkplus.nvim'
+Plug 'dracula/vim'
 call plug#end()
 
 filetype plugin indent on
@@ -18,7 +21,7 @@ syntax enable
 
 " Sets
 set tags=.tags
-set clipboard=unnamedplus
+set clipboard=unnamed
 set rtp^="/home/omolu/.opam/default/share/ocp-indent/vim"
 set background=dark
 set relativenumber
@@ -39,7 +42,7 @@ set expandtab
 set omnifunc=syntaxcomplete#Complete
 set mouse=c
 
-colorscheme gruvbox
+colorscheme dracula
 
 let mapleader = ";"
 
@@ -80,7 +83,7 @@ let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>S :Rg<CR>
 ""================================================== 
-let g:airline_theme='gruvbox'
+let g:airline_theme='bubblegum'
 let g:python3_host_prog = '/home/omolu/miniconda3/bin/python'
 
 "" Magma
