@@ -1,1 +1,0 @@
-/home/omolu/ayedero/.vimrc

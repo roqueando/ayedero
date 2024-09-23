@@ -1,0 +1,14 @@
+2024/09/18-19:47:07.534 404f9 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/18-19:47:07.534 404f9 Recovering log #10
+2024/09/18-19:47:07.535 404f9 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/000010.log 
+2024/09/18-19:47:07.535 404f9 Delete type=2 #8
+2024/09/18-19:47:07.658 404fa Level-0 table #15: started
+2024/09/18-19:47:07.660 404fa Level-0 table #15: 2970 bytes OK
+2024/09/18-19:47:07.662 404fa Delete type=0 #10
+2024/09/18-19:47:07.662 404f8 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 252 : 1
+2024/09/18-19:47:07.663 404f8 Compacting 1@0 + 1@1 files
+2024/09/18-19:47:07.665 404f8 Generated table #16@0: 82 keys, 2238 bytes
+2024/09/18-19:47:07.665 404f8 Compacted 1@0 + 1@1 files => 2238 bytes
+2024/09/18-19:47:07.667 404f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/18-19:47:07.667 404f8 Delete type=2 #15
+2024/09/18-19:47:07.668 404f8 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 252 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

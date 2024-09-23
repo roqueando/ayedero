@@ -1,0 +1,29 @@
+2024/09/18-12:19:53.210 ec1 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vitor-roque-pereira-team.plaky.com_0.indexeddb.leveldb since it was missing.
+2024/09/18-12:19:53.216 ec1 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vitor-roque-pereira-team.plaky.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/18-12:19:53.297 ecc Level-0 table #5: started
+2024/09/18-12:19:53.299 ecc Level-0 table #5: 712 bytes OK
+2024/09/18-12:19:53.301 ecc Delete type=0 #3
+2024/09/18-12:19:53.302 ec0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-12:20:09.572 ece Level-0 table #7: started
+2024/09/18-12:20:09.574 ece Level-0 table #7: 1677 bytes OK
+2024/09/18-12:20:09.576 ece Delete type=0 #4
+2024/09/18-12:20:09.577 ec0 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-12:20:43.371 ec1 Level-0 table #9: started
+2024/09/18-12:20:43.373 ec1 Level-0 table #9: 237 bytes OK
+2024/09/18-12:20:43.376 ec1 Delete type=0 #6
+2024/09/18-12:20:43.376 ec1 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x07\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 92 : 0
+2024/09/18-12:20:43.376 ec1 Compacting 1@0 + 1@1 files
+2024/09/18-12:20:43.379 ec1 Generated table #10@0: 41 keys, 1245 bytes
+2024/09/18-12:20:43.379 ec1 Compacted 1@0 + 1@1 files => 1245 bytes
+2024/09/18-12:20:43.381 ec1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/18-12:20:43.381 ec1 Delete type=2 #7
+2024/09/18-12:20:43.381 ec1 Delete type=2 #9
+2024/09/18-12:20:43.382 ec1 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x07\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 92 : 0 .. (end); will stop at (end)
+2024/09/18-12:20:43.382 ec1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x011\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x003\x005\x005\x007\x007\x002\x007\x002\x00:\x00w\x00e\x00b\x00:\x007\x00b\x008\x005\x002\x00a\x006\x009\x003\x00b\x008\x00a\x008\x006\x008\x00b\x00b\x009\x002\x00e\x004\x00d' @ 68 : 1
+2024/09/18-12:20:43.383 ec1 Compacting 1@1 + 1@2 files
+2024/09/18-12:20:43.385 ec1 Generated table #11@1: 20 keys, 939 bytes
+2024/09/18-12:20:43.385 ec1 Compacted 1@1 + 1@2 files => 939 bytes
+2024/09/18-12:20:43.387 ec1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-12:20:43.388 ec1 Delete type=2 #10
+2024/09/18-12:20:43.388 ec1 Delete type=2 #5
+2024/09/18-12:20:43.389 ec1 Manual compaction at level-1 from '\x00\x02\x01\x02\x011\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x003\x005\x005\x007\x007\x002\x007\x002\x00:\x00w\x00e\x00b\x00:\x007\x00b\x008\x005\x002\x00a\x006\x009\x003\x00b\x008\x00a\x008\x006\x008\x00b\x00b\x009\x002\x00e\x004\x00d' @ 68 : 1 .. (end); will stop at (end)

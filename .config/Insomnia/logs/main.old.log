@@ -1,0 +1,18 @@
+[2024-09-18 19:56:45.112] [info]  Running version 10.0.0
+[2024-09-18 19:56:45.133] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2024-09-18 19:56:45.147] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2024-09-18 19:56:45.200] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2024-09-18 19:56:45.575] [info]  [fix] Running database repairs
+[2024-09-18 19:56:45.885] [info]  [db] Initialized DB at /home/omolu/.config/Insomnia/insomnia.$TYPE.db
+[2024-09-18 19:56:45.886] [info]  [db] Init responses DB
+[2024-09-18 19:56:45.887] [info]  [db] Init websocket-responses DB
+[2024-09-18 19:56:45.892] [info]  [localstorage] Initialized at /home/omolu/.config/Insomnia/localStorage
+[2024-09-18 19:56:45.976] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2024-09-18 19:56:46.006] [info]  [main] Registering the hidden window restarting handler
+[2024-09-18 19:56:46.007] [info]  [updater] Not supported on this platform linux
+[2024-09-18 19:56:48.969] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2024-09-18 19:56:48.972] [info]  [main] Check args and create windows []
+[2024-09-18 19:56:48.973] [info]  [main] Checking for newer version than  10.0.0
+[2024-09-18 19:56:49.361] [info]  [main] Found newer version
+[2024-09-18 19:56:49.368] [info]  [main] Backup found at: /home/omolu/.config/Insomnia/backups/10.0.0

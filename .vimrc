@@ -14,6 +14,8 @@ Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Mofiqul/vscode.nvim'
 Plug 'martinsione/darkplus.nvim'
 Plug 'dracula/vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'pasky/claude.vim'
 call plug#end()
 
 filetype plugin indent on
@@ -21,7 +23,7 @@ syntax enable
 
 " Sets
 set tags=.tags
-set clipboard=unnamed
+set clipboard=unnamedplus
 set rtp^="/home/omolu/.opam/default/share/ocp-indent/vim"
 set background=dark
 set relativenumber

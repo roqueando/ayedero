@@ -1,0 +1,18 @@
+2024/09/16-13:53:51.726 e4d Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_arc.dev_0.indexeddb.leveldb since it was missing.
+2024/09/16-13:53:51.729 e4d Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_arc.dev_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/16-13:53:51.745 e4d Level-0 table #5: started
+2024/09/16-13:53:51.747 e4d Level-0 table #5: 1259 bytes OK
+2024/09/16-13:53:51.748 e4d Delete type=0 #3
+2024/09/16-13:53:51.748 e42 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/16-14:13:03.734 e42 Level-0 table #7: started
+2024/09/16-14:13:03.736 e42 Level-0 table #7: 4044 bytes OK
+2024/09/16-14:13:03.738 e42 Delete type=0 #4
+2024/09/16-14:13:03.739 e42 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/09/16-14:13:03.739 e42 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x1c\x00i\x00n\x00b\x00o\x00x\x00-\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 122 : 1
+2024/09/16-14:13:03.739 e42 Compacting 1@1 + 1@2 files
+2024/09/16-14:13:03.741 e42 Generated table #8@1: 36 keys, 2507 bytes
+2024/09/16-14:13:03.741 e42 Compacted 1@1 + 1@2 files => 2507 bytes
+2024/09/16-14:13:03.743 e42 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/16-14:13:03.744 e42 Delete type=2 #7
+2024/09/16-14:13:03.744 e42 Delete type=2 #5
+2024/09/16-14:13:03.744 e42 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x1c\x00i\x00n\x00b\x00o\x00x\x00-\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 122 : 1 .. (end); will stop at (end)

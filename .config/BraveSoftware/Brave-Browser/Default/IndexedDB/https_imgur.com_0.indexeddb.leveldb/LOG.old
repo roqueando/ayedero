@@ -1,0 +1,13 @@
+2024/09/13-19:53:13.915 5cf21 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/13-19:53:13.916 5cf21 Recovering log #7
+2024/09/13-19:53:13.918 5cf21 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/000007.log 
+2024/09/13-19:53:13.988 5cf21 Level-0 table #11: started
+2024/09/13-19:53:13.989 5cf21 Level-0 table #11: 2039 bytes OK
+2024/09/13-19:53:13.991 5cf21 Delete type=0 #7
+2024/09/13-19:53:13.991 5cf21 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 197 : 1
+2024/09/13-19:53:13.991 5cf21 Compacting 1@0 + 1@1 files
+2024/09/13-19:53:13.992 5cf21 Generated table #12@0: 78 keys, 2075 bytes
+2024/09/13-19:53:13.992 5cf21 Compacted 1@0 + 1@1 files => 2075 bytes
+2024/09/13-19:53:13.994 5cf21 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/13-19:53:13.994 5cf21 Delete type=2 #11
+2024/09/13-19:53:13.994 5cf21 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 197 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

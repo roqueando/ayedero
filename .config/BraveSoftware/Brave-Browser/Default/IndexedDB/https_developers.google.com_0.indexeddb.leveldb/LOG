@@ -1,0 +1,7 @@
+2024/09/20-14:56:42.672 133a5 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/20-14:56:42.672 133a5 Recovering log #3
+2024/09/20-14:56:42.673 133a5 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000003.log 
+2024/09/20-14:57:14.665 133a4 Level-0 table #5: started
+2024/09/20-14:57:14.668 133a4 Level-0 table #5: 5234 bytes OK
+2024/09/20-14:57:14.671 133a4 Delete type=0 #3
+2024/09/20-14:57:14.671 133a4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

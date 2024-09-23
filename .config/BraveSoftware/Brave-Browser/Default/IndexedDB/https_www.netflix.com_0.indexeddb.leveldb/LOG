@@ -1,0 +1,12 @@
+2024/09/21-14:26:54.025 28f98 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/21-14:26:54.025 28f98 Recovering log #6
+2024/09/21-14:26:54.025 28f98 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000006.log 
+2024/09/21-15:11:18.015 28f97 Level-0 table #11: started
+2024/09/21-15:11:18.029 28f97 Level-0 table #11: 2304710 bytes OK
+2024/09/21-15:11:18.032 28f97 Delete type=0 #6
+2024/09/21-15:18:18.018 28f96 Compacting 1@1 + 1@2 files
+2024/09/21-15:18:18.030 28f96 Generated table #12@1: 55 keys, 14034 bytes
+2024/09/21-15:18:18.030 28f96 Compacted 1@1 + 1@2 files => 14034 bytes
+2024/09/21-15:18:18.032 28f96 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/21-15:18:18.032 28f96 Delete type=2 #8
+2024/09/21-15:18:18.032 28f96 Delete type=2 #11

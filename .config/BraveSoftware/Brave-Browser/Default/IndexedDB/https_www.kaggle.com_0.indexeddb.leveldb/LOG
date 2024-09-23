@@ -1,0 +1,18 @@
+2024/09/19-22:26:57.445 133af Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.kaggle.com_0.indexeddb.leveldb since it was missing.
+2024/09/19-22:26:57.449 133af Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.kaggle.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/19-22:26:57.456 133a5 Level-0 table #5: started
+2024/09/19-22:26:57.458 133a5 Level-0 table #5: 1286 bytes OK
+2024/09/19-22:26:57.459 133a5 Delete type=0 #3
+2024/09/19-22:26:57.459 133a4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/20-02:33:58.740 133a4 Level-0 table #7: started
+2024/09/20-02:33:58.744 133a4 Level-0 table #7: 11160 bytes OK
+2024/09/20-02:33:58.747 133a4 Delete type=0 #4
+2024/09/20-02:33:58.747 133a4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/09/20-02:33:58.748 133a4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x010\x00G\x00l\x00o\x00b\x00a\x00l\x00!\x001\x00:\x009\x001\x008\x005\x007\x003\x007\x003\x002\x007\x008\x001\x00:\x00w\x00e\x00b\x00:\x00a\x005\x001\x00c\x006\x009\x002\x00b\x000\x002\x00f\x00b\x00e\x005\x005\x005\x00f\x001\x008\x007\x002\x004' @ 122 : 1
+2024/09/20-02:33:58.748 133a4 Compacting 1@1 + 1@2 files
+2024/09/20-02:33:58.751 133a4 Generated table #8@1: 35 keys, 2436 bytes
+2024/09/20-02:33:58.752 133a4 Compacted 1@1 + 1@2 files => 2436 bytes
+2024/09/20-02:33:58.754 133a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/20-02:33:58.754 133a4 Delete type=2 #7
+2024/09/20-02:33:58.754 133a4 Delete type=2 #5
+2024/09/20-02:33:58.755 133a4 Manual compaction at level-1 from '\x00\x03\x01\x02\x010\x00G\x00l\x00o\x00b\x00a\x00l\x00!\x001\x00:\x009\x001\x008\x005\x007\x003\x007\x003\x002\x007\x008\x001\x00:\x00w\x00e\x00b\x00:\x00a\x005\x001\x00c\x006\x009\x002\x00b\x000\x002\x00f\x00b\x00e\x005\x005\x005\x00f\x001\x008\x007\x002\x004' @ 122 : 1 .. (end); will stop at (end)

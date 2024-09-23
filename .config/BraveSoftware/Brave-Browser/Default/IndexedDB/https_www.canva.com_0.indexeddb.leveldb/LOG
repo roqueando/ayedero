@@ -1,0 +1,57 @@
+2024/09/18-14:42:40.773 ec1 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/18-14:42:40.773 ec1 Recovering log #111
+2024/09/18-14:42:40.782 ec1 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000111.log 
+2024/09/18-14:42:42.216 ec0 Level-0 table #116: started
+2024/09/18-14:42:42.219 ecc Current memtable full; waiting...
+2024/09/18-14:42:42.220 ec0 Level-0 table #116: 50255 bytes OK
+2024/09/18-14:42:42.222 ec0 Delete type=0 #111
+2024/09/18-14:42:42.223 ec0 Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-14:42:42.223 ec0 Level-0 table #118: started
+2024/09/18-14:42:42.225 ec0 Level-0 table #118: 479 bytes OK
+2024/09/18-14:42:42.227 ec0 Delete type=0 #115
+2024/09/18-14:42:42.227 ec0 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\x05' @ 1608521 : 1
+2024/09/18-14:42:42.227 ec0 Compacting 1@0 + 1@1 files
+2024/09/18-14:42:42.233 ec0 Generated table #119@0: 1108 keys, 13743 bytes
+2024/09/18-14:42:42.233 ec0 Compacted 1@0 + 1@1 files => 13743 bytes
+2024/09/18-14:42:42.235 ec0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/18-14:42:42.236 ec0 Delete type=2 #116
+2024/09/18-14:42:42.236 ec0 Delete type=2 #118
+2024/09/18-14:42:42.236 ec0 Manual compaction at level-0 from '\x00\x14\x00\x00\x05' @ 1608521 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-14:42:50.737 ec1 Compacting 1@1 + 1@2 files
+2024/09/18-14:42:50.744 ec1 Generated table #120@1: 224 keys, 37375 bytes
+2024/09/18-14:42:50.744 ec1 Compacted 1@1 + 1@2 files => 37375 bytes
+2024/09/18-14:42:50.746 ec1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-14:42:50.747 ec1 Delete type=2 #113
+2024/09/18-14:42:50.747 ec1 Delete type=2 #119
+2024/09/18-14:42:54.820 ec0 Level-0 table #122: started
+2024/09/18-14:42:54.823 ec0 Level-0 table #122: 57453 bytes OK
+2024/09/18-14:42:54.825 ec0 Delete type=0 #117
+2024/09/18-14:42:54.825 ec0 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-14:42:58.437 ec1 Compacting 1@1 + 1@2 files
+2024/09/18-14:42:58.441 ec1 Generated table #123@1: 221 keys, 38414 bytes
+2024/09/18-14:42:58.441 ec1 Compacted 1@1 + 1@2 files => 38414 bytes
+2024/09/18-14:42:58.443 ec1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-14:42:58.443 ec1 Delete type=2 #120
+2024/09/18-14:42:58.443 ec1 Delete type=2 #122
+2024/09/18-14:43:33.700 ec2 Level-0 table #125: started
+2024/09/18-14:43:33.707 ec2 Level-0 table #125: 196407 bytes OK
+2024/09/18-14:43:33.710 ec2 Delete type=0 #121
+2024/09/18-14:43:33.711 ec0 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/18-14:43:40.004 ec2 Compacting 1@1 + 1@2 files
+2024/09/18-14:43:40.010 ec2 Generated table #126@1: 234 keys, 64970 bytes
+2024/09/18-14:43:40.010 ec2 Compacted 1@1 + 1@2 files => 64970 bytes
+2024/09/18-14:43:40.012 ec2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-14:43:40.013 ec2 Delete type=2 #123
+2024/09/18-14:43:40.013 ec2 Delete type=2 #125
+2024/09/18-14:45:24.422 ec0 Level-0 table #128: started
+2024/09/18-14:45:24.436 ec0 Level-0 table #128: 740572 bytes OK
+2024/09/18-14:45:24.438 ec0 Delete type=0 #124
+2024/09/18-14:45:24.439 ec0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/09/18-14:45:24.439 ec0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x011\x00U\x00A\x00E\x00g\x00S\x00F\x00R\x00Q\x003\x00a\x00g\x00-\x00B\x00A\x00E\x00g\x00S\x00M\x00o\x00U\x004\x00Y\x000\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00_\x00d\x00o\x00c\x00u\x00m\x00e\x00n\x00t\x00_\x00r\x00e\x00s\x00p\x00o\x00n\x00s\x00e' @ 1611281 : 1
+2024/09/18-14:45:24.439 ec0 Compacting 1@1 + 1@2 files
+2024/09/18-14:45:24.445 ec0 Generated table #129@1: 220 keys, 59101 bytes
+2024/09/18-14:45:24.446 ec0 Compacted 1@1 + 1@2 files => 59101 bytes
+2024/09/18-14:45:24.447 ec0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-14:45:24.447 ec0 Delete type=2 #126
+2024/09/18-14:45:24.447 ec0 Delete type=2 #128
+2024/09/18-14:45:24.448 ec0 Manual compaction at level-1 from '\x00\x03\x01\x02\x011\x00U\x00A\x00E\x00g\x00S\x00F\x00R\x00Q\x003\x00a\x00g\x00-\x00B\x00A\x00E\x00g\x00S\x00M\x00o\x00U\x004\x00Y\x000\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00_\x00d\x00o\x00c\x00u\x00m\x00e\x00n\x00t\x00_\x00r\x00e\x00s\x00p\x00o\x00n\x00s\x00e' @ 1611281 : 1 .. (end); will stop at (end)

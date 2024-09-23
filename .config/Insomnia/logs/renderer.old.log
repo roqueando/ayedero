@@ -1,0 +1,566 @@
+[2024-09-18 19:56:47.785] [info]  [db] Initialized DB client
+[2024-09-18 19:56:47.805] [info]  [plugin] Loading 
+[2024-09-18 19:56:47.841] [info]  Redirecting to last visited project proj_a73b8f19b538460d9c568697cb4b7456
+[2024-09-18 19:56:48.113] [info]  [FileSystemDriver] Initialized in "/home/omolu/.config/Insomnia/version-control"
+[2024-09-18 19:56:48.124] [info]  [sync] Activated project prj_e4cf334b51dd4be58ac91d7867e0cce7
+[2024-09-18 19:56:48.125] [info]  [FileSystemDriver] Writing to /projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:56:48.126] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json.e440f9f9-2f00-4d85-acb3-31c8a9166c73.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:56:48.190] [info]  [sync] Activated project prj_e4cf334b51dd4be58ac91d7867e0cce7
+[2024-09-18 19:56:48.190] [info]  [FileSystemDriver] Writing to /projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:56:48.191] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json.425cdf02-8abd-4478-a73e-f4264781b695.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:56:49.225] [info]  [sync] Activated project prj_e4cf334b51dd4be58ac91d7867e0cce7
+[2024-09-18 19:56:49.226] [info]  [FileSystemDriver] Writing to /projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:56:49.238] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json.c234bf13-a865-4c7b-acb7-810cf076913d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_e4cf334b51dd4be58ac91d7867e0cce7/meta.json
+[2024-09-18 19:57:07.496] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:57:07.497] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:57:07.497] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.080490cc-b9c2-4cd5-aef3-6842f0ed0944.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:57:07.569] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:57:07.569] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:57:07.569] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.bc2e41f2-37ea-4eaf-990e-3888ef85598b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:57:59.869] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 19:58:00.017] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:58:00.017] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:58:00.019] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2a380203-ea98-4984-8e4a-6f827a449163.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:58:08.926] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:58:08.927] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:58:08.928] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.cd7f8173-ba11-4fd9-98ce-94f3301567aa.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:08.932] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:59:08.933] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:08.934] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.d116496e-3921-4910-aac0-7e3cdafbac3a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:39.795] [info]  [network] Response failed req=req_a3b18e1a8e14489ea89d01af3054c2b7 err=Error: Couldn't connect to server
+[2024-09-18 19:59:39.795] [info]  [request] Failed to send request {
+  response: {
+    _id: 'res_fd25705d200344c2b899f4efc83bcf54',
+    parentId: 'req_a3b18e1a8e14489ea89d01af3054c2b7',
+    timelinePath: '/home/omolu/.config/Insomnia/responses/res_fd25705d200344c2b899f4efc83bcf54.timeline',
+    contentType: '',
+    headers: [],
+    httpVersion: '',
+    statusCode: 0,
+    statusMessage: 'Error',
+    cookies: [],
+    error: "Error: Couldn't connect to server",
+    elapsedTime: 1.339,
+    environmentId: 'env_1bdda19c0dcf87a49cdeead4c10b58d379ac1a7b',
+    globalEnvironmentId: null,
+    bodyCompression: null,
+    settingSendCookies: true,
+    settingStoreCookies: true
+  },
+  maxHistoryResponses: 20,
+  requestMeta: {
+    _id: 'reqm_4c20f671102e4422b89b3449e4878a3a',
+    type: 'RequestMeta',
+    parentId: 'req_a3b18e1a8e14489ea89d01af3054c2b7',
+    modified: 1726700348916,
+    created: 1726620686746,
+    previewMode: 'friendly',
+    responseFilter: '',
+    responseFilterHistory: [],
+    activeResponseId: 'res_d7f62e0d251d489aab690313727f10ba',
+    savedRequestBody: {},
+    pinned: false,
+    lastActive: 1726700348915,
+    downloadPath: null,
+    expandedAccordionKeys: {}
+  },
+  error: "Error: Couldn't connect to server"
+}
+[2024-09-18 19:59:39.914] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:59:39.915] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:39.915] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e2370a36-52fa-4a9b-98a9-58d97430eb23.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:40.247] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 19:59:40.248] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 19:59:40.248] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5ed044a8-62de-41d2-b8fc-0e1482475771.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:00:08.966] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:00:08.967] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:00:08.968] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c8dc9523-da5f-4de0-ae4b-003b60ad5629.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:00:19.631] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:00:19.753] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:00:19.753] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:00:19.754] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ab7b06c9-8c0d-49c4-8f0f-f68df2af032e.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:01:08.990] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:01:08.991] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:01:08.992] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a23abb9b-beac-4691-b399-518aad785eba.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:01:24.406] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:01:24.532] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:01:24.532] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:01:24.533] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b6f82c4e-d5e9-4ffa-aa3c-5221c21e2a7f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:08.955] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:02:08.955] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:08.956] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8dd9177f-f3d0-43ac-8800-14854d491b46.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:10.545] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:02:10.650] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:02:10.650] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:10.651] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8b3e066d-1529-4121-bcae-4fd0cb64f87d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:58.936] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:02:59.041] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:02:59.041] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:02:59.041] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.25e839de-f336-43bb-aabf-4eb5a8e1e9bd.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:03:08.908] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:03:08.908] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:03:08.909] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ab8cc189-d8f4-43a4-bdbc-061e3db3c579.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:04:38.084] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:04:38.084] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:04:38.085] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.f3e07537-a643-4ae2-b757-afafde32b658.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:05:39.623] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:05:39.623] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:05:39.624] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.3157f306-f60a-4aa6-89ca-2a1fb4e57025.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:06:37.842] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:06:37.843] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:06:37.844] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a6b5e30f-0e2a-46c8-8f95-aed2fa9bfd54.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:06:54.916] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:06:55.033] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:06:55.034] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:06:55.035] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.d9d5d4bb-5d96-4628-890d-235d0bbb5712.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:07:08.900] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:07:08.901] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:07:08.901] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1fd68730-c3ad-4937-b5c9-1e9e669c9c0a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:08:25.327] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:08:25.327] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:08:25.330] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.22433229-dfe9-476a-a3aa-b3a8dc4604dd.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:08:25.395] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:08:25.533] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:08:25.533] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:08:25.534] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a971ec25-b416-49fc-a2db-331ae31b4750.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:09:05.751] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:09:05.871] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:09:05.871] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:09:05.872] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2ad7fe16-9928-4e71-8f9f-96751971c05d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:09:08.824] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:09:08.825] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:09:08.826] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2b2d2815-ace8-46fa-ba00-b75c32d5a9bc.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:10:37.842] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:10:37.843] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:10:37.843] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.180df627-048a-4b8c-be83-ca80b40743b7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:11:37.850] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:11:37.851] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:11:37.852] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b1fd726f-681f-4bc7-ad35-cfa932a6e9d0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:12:38.013] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:12:38.014] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:12:38.014] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.299dcc63-ef57-4b29-b308-9c62ec434899.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:13:37.942] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:13:37.943] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:13:37.944] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1c3c53d5-8bab-4644-ac82-0a5151a6c39d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:14:38.130] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:14:38.131] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:14:38.132] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ae0c338e-29fc-4df7-9c84-a54c29d009d4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:15:28.841] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:15:28.841] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:15:28.842] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.78a40767-6428-486f-a473-c5cb4ad8f6e8.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:15:29.791] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:15:29.943] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:15:29.944] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:15:29.945] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ee8d8ded-a37d-4961-b252-ac8005c99eca.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:16:14.888] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:16:14.889] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:16:14.890] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.87b45f09-cf22-4887-adbd-05bf6a36dea2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:17:15.716] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:17:15.717] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:17:15.718] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.9c5dd335-9b2e-483e-83f9-683d9a57a0c7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:18:08.965] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:18:08.965] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:18:08.966] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.600267e4-aa99-429f-b89d-e41b610397bf.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:19:37.920] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:19:37.921] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:19:37.922] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0f49648f-26f8-4b59-9427-9d2a9e51db50.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:20:38.793] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:20:38.794] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:20:38.795] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.deba6578-3a26-4cbd-8c00-d2ccf427f80b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:21:37.865] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:21:37.866] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:21:37.866] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.7e9a33e5-cdbe-49e6-a578-789ce1facd23.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:22:37.960] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:22:37.960] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:22:37.963] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.4625c29e-c498-4256-bcb6-c9f2d2583b93.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:23:33.489] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:23:33.490] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:23:33.491] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.d4380f33-75c9-4a0e-a1f4-4d57a160ea1e.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:23:34.151] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:23:34.302] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:23:34.303] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:23:34.304] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.64cb65a9-e25e-4744-881a-d5d5c6973d8f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:24:09.125] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:24:09.125] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:24:09.127] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b32e9b90-3fd7-4701-b3ad-77b8e1649a21.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:25:38.144] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:25:38.145] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:25:38.146] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ec30ef27-e603-4d49-837b-88d838149ab4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:26:38.107] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:26:38.108] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:26:38.109] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6d1f00e1-8cf4-461c-b598-16ff6f4bc21b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:27:38.665] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:27:38.666] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:27:38.666] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.65df645b-128a-44b9-9211-e93d0bf73e19.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:28:37.948] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:28:37.948] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:28:37.949] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2898e6f2-80d0-4420-898a-a1a76166d712.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:29:37.814] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:29:37.815] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:29:37.816] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.78aaf429-7c65-4389-854a-fea7b2f51fa1.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:30:37.908] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:30:37.909] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:30:37.909] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.26baa0fb-eec8-45e5-a8dc-2505f7d79a00.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:31:38.139] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:31:38.139] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:31:38.140] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.50881d9e-ab7d-4957-9a0e-600e4fc3432a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:32:38.337] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:32:38.337] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:32:38.338] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.93c92bcb-17bd-4c2d-baac-5263ac6fd36a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:32:51.643] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:32:51.752] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:32:51.753] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:32:51.754] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1d61d7be-c75e-4abb-a057-055932ec07e2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:33:09.076] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:33:09.076] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:33:09.078] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.28c34081-4c74-4cca-98eb-936b8897d16c.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:34:37.932] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:34:37.932] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:34:37.933] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.af212c05-f3e1-4948-8007-fb5a9c232ebe.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:35:11.298] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:35:11.516] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:35:11.517] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:35:11.518] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:35:11.518] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:35:11.519] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.bfc537f8-c729-4e71-8752-ce2471aca46f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:35:11.520] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.433eec84-d9b4-4d09-b610-646c3fda4e59.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:36:08.888] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:36:08.888] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:36:08.888] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b73d66f2-054a-4587-b16c-7e575fdc25fe.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:37:04.030] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:37:04.182] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:37:04.183] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:37:04.183] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c29c4b3f-ff96-42cd-a536-fd671d381b3d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:37:08.890] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:37:08.890] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:37:08.891] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ea596893-1d85-41ad-9142-e51eb25ada4b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:38:37.917] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:38:37.918] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:38:37.919] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.eeb515d5-f311-4251-be57-442aac5be4b6.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:39:38.126] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:39:38.127] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:39:38.128] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2ce8d1c2-61be-43f8-ae8d-688a48a58dda.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:40:37.996] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:40:37.997] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:40:37.999] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.577544f8-df2f-4d05-8d79-12f3595443a1.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:41:37.907] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:41:37.908] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:41:37.909] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ea884230-6f9c-4ee6-b7b1-ee1a908abcb6.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:41:59.059] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:41:59.191] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:41:59.192] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:41:59.193] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.4ca45b54-b903-4442-9668-8eae117317cd.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:42:08.810] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:42:08.811] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:42:08.812] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.99d5927b-b227-4091-b94a-97b6b2976dd0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:43:37.941] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:43:37.942] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:43:37.942] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e924301f-4c8f-423b-890e-729337e3e3a4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:44:37.920] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:44:37.920] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:44:37.921] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2dc5ade5-75d8-4ac8-a899-a8373be4eb7c.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:45:38.036] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:45:38.037] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:45:38.038] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8b069e28-66dd-4ee7-81f1-929533823da6.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:46:37.873] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:46:37.874] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:46:37.874] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ff19a7a2-fbb3-4884-b403-901365922529.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:47:37.930] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:47:37.931] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:47:37.932] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2c6ac22a-fdce-4030-9a0f-890675e12fcd.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:48:37.852] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:48:37.852] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:48:37.852] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5a6d12a9-17d1-4163-b4be-cfa42dc904ab.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:49:37.859] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:49:37.860] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:49:37.860] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c38a2c10-a4ff-4606-a73a-9c797ff27f7b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:50:38.260] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:50:38.261] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:50:38.261] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ebdef456-46cb-4d5d-afb9-68f8779958d5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:51:36.274] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:51:36.275] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:51:36.278] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a919fd3a-daab-40ca-8bf5-618e1916d4d0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:51:37.667] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:51:37.784] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:51:37.785] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:51:37.785] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ea03ad23-58ac-4ee8-8b81-81eaddb920d7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:52:09.219] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:52:09.220] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:52:09.221] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6d229fd1-43f2-4e19-a27e-5226c5ce4f89.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:53:35.352] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:53:35.353] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:53:35.353] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1c821621-e80f-4d8c-ba96-83b4cff619fe.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:54:35.869] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:54:35.872] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:54:35.873] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.4593e696-6c5e-4716-95a9-e71de8505c3a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:55:37.121] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:55:37.121] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:55:37.123] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.7bcae5a6-dc86-49f5-9203-77f7dc652d65.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:56:38.406] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:56:38.406] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:56:38.407] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a5366943-6a92-4749-a0c2-37f5a9585de5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:57:37.951] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:57:37.952] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:57:37.953] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a5983d91-62d3-4576-b1dc-ed2443e772f4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:58:37.889] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:58:37.890] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:58:37.891] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.94dafaae-fbc4-4a95-ab7d-ebe4fe6c7999.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:59:09.258] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:59:09.258] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:59:09.258] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.22f12a83-9d77-42ed-b542-eef417683df0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:59:10.284] [info]  [network] Response succeeded req=req_a3b18e1a8e14489ea89d01af3054c2b7 status=201
+[2024-09-18 20:59:10.391] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 20:59:10.392] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 20:59:10.393] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.127b448a-3154-496c-a1b6-5ea1b34053b7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:00:08.881] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:00:08.882] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:00:08.883] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0acfe07c-6e34-4089-8af0-b15d5330b422.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:01:37.987] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:01:37.987] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:01:37.988] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2eb20a23-e7d6-4d16-baf1-79ad08434c04.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:02:37.919] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:02:37.919] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:02:37.920] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.95071d1e-62c3-4999-816b-121876a154ea.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:03:37.857] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:03:37.858] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:03:37.858] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.74a3512b-0656-4f24-b5a2-13354cbfbb3b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:04:37.867] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:04:37.868] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:04:37.869] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8fd37d1d-837f-4b7a-8e22-9ced07bd868f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:05:37.880] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:05:37.881] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:05:37.882] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.99803527-c3e7-4036-bddf-3c4ca023f448.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:06:37.963] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:06:37.963] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:06:37.964] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0b781412-4070-4a70-b97b-b21e9885dc41.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:07:37.772] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:07:37.772] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:07:37.773] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0d449e13-c740-44ee-97a5-c32bf4560e0d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:08:38.115] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:08:38.115] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:08:38.116] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.30b38a83-849c-4f73-b945-8ae020a34d3d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:09:37.918] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:09:37.919] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:09:37.920] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8222db5e-6856-49e5-b08a-6596c140b474.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:10:38.050] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:10:38.051] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:10:38.052] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0d47cf4c-add0-4229-ba53-28a7344809ba.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:11:38.024] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:11:38.024] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:11:38.025] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c9f5971a-5390-423e-9559-e2350a135f05.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:12:37.834] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:12:37.835] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:12:37.836] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5a7c092b-027c-4333-bda4-66b7b96b8c60.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:13:37.873] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:13:37.874] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:13:37.874] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e6929471-880c-4701-ba50-a63e03fd2b43.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:14:38.256] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:14:38.256] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:14:38.257] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.29c8e224-180e-42d6-8a45-e6e9d17c20b0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:15:38.980] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:15:38.980] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:15:38.981] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6b025550-bd3f-4eff-a560-e08d0d01c1b2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:16:37.862] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:16:37.863] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:16:37.864] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.338946e3-a0f5-4dd5-bdcb-7e53e3430934.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:17:37.932] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:17:37.932] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:17:37.933] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6e757bd2-c675-4fd8-af27-aef73056d3be.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:18:37.762] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:18:37.763] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:18:37.763] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.16812f08-b00d-41f4-8f3e-f1f2d54cc8b5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:19:37.877] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:19:37.878] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:19:37.878] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5be3ea9c-3a88-4f1c-a2c9-85f6496f73d5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:20:38.436] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:20:38.437] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:20:38.437] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.7878ad36-3720-49de-b780-06086aaa198a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:21:38.198] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:21:38.199] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:21:38.200] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1e1f7245-9d1e-4cd0-843f-30e77f528fcd.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:22:37.821] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:22:37.821] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:22:37.821] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.3629e5c9-7490-4ba5-9d55-5771cd904d9a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:23:37.955] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:23:37.955] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:23:37.956] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e1fc12ee-52fb-4490-83cd-5750263a8cb2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:24:37.938] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:24:37.939] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:24:37.939] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.354b70d4-c073-4dcb-9ab5-870aa81ecb12.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:25:37.936] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:25:37.936] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:25:37.936] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.57dec917-4837-4731-8be2-674e589d09bc.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:26:38.007] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:26:38.008] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:26:38.009] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.7a865f89-eb6e-48c1-8e74-75c240e657b7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:27:37.824] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:27:37.824] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:27:37.825] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6c827863-a68a-4f2c-9fa6-cf1de42cf461.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:28:37.850] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:28:37.850] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:28:37.851] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e4deeb59-f709-4eba-9947-5bb6e6f5655e.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:29:37.906] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:29:37.906] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:29:37.907] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b7e7cf80-6a70-4995-9ae5-65cf3a87c2a8.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:30:37.859] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:30:37.859] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:30:37.860] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5c95936e-ef12-415b-a7cf-cfc9270f73e9.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:31:37.862] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:31:37.863] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:31:37.864] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.9eed87ab-8a07-4a58-b0b1-12eb4edcd7b2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:32:37.967] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:32:37.968] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:32:37.968] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.597a5390-dd73-4999-a902-7d328e7fd18a.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:33:37.899] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:33:37.900] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:33:37.900] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.64cd28df-274f-4108-964a-d0ac61e6d649.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:34:37.889] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:34:37.889] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:34:37.889] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.87cd7f1b-9da9-4702-879e-edf9296bd213.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:35:37.894] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:35:37.895] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:35:37.896] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6b8103d3-1eb7-4de9-a74e-cfea416c90ec.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:36:37.909] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:36:37.909] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:36:37.910] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1fb55b81-08ad-4650-bc76-4509c5683f70.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:37:37.867] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:37:37.867] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:37:37.868] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c58b6bee-a9cf-4992-9b93-ccd885b59ab1.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:38:37.855] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:38:37.855] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:38:37.856] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.928d4fac-b5fb-47ae-b8d0-934d1994133e.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:39:37.961] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:39:37.961] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:39:37.962] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.72167732-8a15-41d8-81c5-7e42d045d53c.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:40:37.827] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:40:37.827] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:40:37.828] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0c401d52-bba0-47d0-bc30-7bbffd70d0d6.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:41:37.979] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:41:37.980] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:41:37.981] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.0fea14ac-fbe5-4b39-af46-880b3ac6e072.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:42:37.809] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:42:37.809] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:42:37.810] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.183b2d8e-40ac-4b70-954e-284a49a233f9.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:43:38.007] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:43:38.007] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:43:38.009] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6c567437-9805-498f-821f-8e23226a4f08.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:44:37.860] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:44:37.860] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:44:37.862] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.7a18a191-9f1c-4c32-ab26-3a47fa880aca.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:45:37.805] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:45:37.806] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:45:37.807] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6f4ac75c-9901-4f66-a859-f8509b076dde.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:46:37.887] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:46:37.887] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:46:37.888] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c354a092-080e-4b8d-9197-4c98eecd436d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:47:38.056] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:47:38.057] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:47:38.058] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.4be04e36-8f54-4007-bc38-6cb02ba212f3.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:48:38.793] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:48:38.794] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:48:38.795] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.de03799f-de06-40e8-a94c-9bee7dc0e6f5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:49:40.891] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:49:40.891] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:49:40.891] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.46eef2b2-9ab6-426d-a724-07b2a37b0127.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:50:43.948] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:50:43.948] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:50:43.949] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.c335c710-821b-42e6-a7c4-875390a260a7.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:51:40.823] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:51:40.824] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:51:40.826] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.6c297f5f-b004-4e2a-8383-f3a19bcf4bbf.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:52:16.718] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:52:16.719] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:52:16.719] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e2ce33cb-e6cd-41f3-80a2-17450d032f25.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:53:19.784] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:53:19.785] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:53:19.786] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.bafcfaad-09f9-4981-936e-ef0ffee71d52.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:54:09.336] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:54:09.337] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:54:09.337] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.48ecd1e1-b635-432e-abe6-9a1b422ca03f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:55:08.662] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:55:08.662] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:55:08.663] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.70a1d9a1-2873-4ad8-b3e7-1470b0cfc8b4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:56:08.930] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:56:08.930] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:56:08.931] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.5ab9302d-8e87-4534-a40b-36fbc8d46a09.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:57:11.022] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:57:11.023] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:57:11.023] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b1e801b7-10e4-4e1d-997e-26a9e3e94e8c.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:58:10.297] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:58:10.298] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:58:10.299] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ffd13767-e737-4de4-b5cf-f0adf583a48d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:59:09.515] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 21:59:09.515] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 21:59:09.516] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b037be56-ee02-42ea-9ed3-7b9e20ef2838.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:00:08.616] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:00:08.616] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:00:08.617] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.cf914a32-c8cd-4dc1-91ad-66ccf6ff82b4.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:01:08.390] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:01:08.390] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:01:08.391] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8da3f484-47ba-43ba-8825-0e11c0d814e5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:02:08.396] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:02:08.396] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:02:08.398] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.650effa8-1cda-4639-aeab-3c72366e742b.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:03:08.521] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:03:08.521] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:03:08.521] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.482aa56b-72d3-463f-89c1-fff41cf7f214.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:04:08.385] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:04:08.385] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:04:08.387] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8fd5b5e5-ef91-425c-b4ba-f940d388449f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:05:08.430] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:05:08.430] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:05:08.430] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.8e9daa7d-ddf2-4e91-a504-cc106ff2a64c.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:06:08.426] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:06:08.426] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:06:08.426] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.43092f9f-2454-486b-b680-33482e8b13f5.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:07:08.448] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:07:08.448] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:07:08.449] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.23d725d6-f514-403c-8e55-dc2d7a35be6d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:08:08.473] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:08:08.473] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:08:08.474] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.14dc6dde-9af7-4ce8-bfd5-1ba5e4c29644.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:09:08.433] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:09:08.433] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:09:08.434] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.bc91f499-8911-45da-b3a2-9ce7599f3454.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:10:08.461] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:10:08.462] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:10:08.462] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.e909e1e7-3105-4075-afde-80a9ee35d18d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:11:08.562] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:11:08.563] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:11:08.563] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.27e54437-55ee-4792-87c5-66bd22caa72f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:12:08.412] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:12:08.413] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:12:08.413] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.a43dd74c-6002-4ead-9cae-60f802efb77e.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:13:08.471] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:13:08.471] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:13:08.471] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.ce370449-1049-4028-91c0-b738e089b6a2.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:14:08.523] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:14:08.524] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:14:08.527] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.2fd78d04-d835-4ab8-b6c7-0e907e5f44ed.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:15:08.411] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:15:08.411] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:15:08.412] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.9eeefc51-48ad-49de-bd89-07ef1a8548ea.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:16:08.428] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:16:08.429] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:16:08.429] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.078a3ba8-f0ac-4ae7-a979-046d127a8344.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:17:08.539] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:17:08.539] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:17:08.539] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.07bb8974-be7d-4cd1-bdab-c0d5e8b918f0.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:18:08.364] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:18:08.365] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:18:08.367] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.1bf37912-8a2d-40f3-b19d-9ecdac4bc3fc.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:19:08.574] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:19:08.574] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:19:08.575] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.3a56ed32-9dba-464a-9f2f-0e59f4213d4f.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:20:08.834] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:20:08.835] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:20:08.838] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.f744611e-3719-4851-b8a5-b9e080423973.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:21:08.433] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:21:08.434] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:21:08.434] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.9adc671f-5c42-4c61-a4a8-20803c506aca.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:22:08.417] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:22:08.417] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:22:08.418] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b09f7dc7-054f-4220-9cc1-05303729816d.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:23:08.565] [info]  [sync] Activated project prj_1c49b633cba44b5785801151ee7e5e23
+[2024-09-18 22:23:08.566] [info]  [FileSystemDriver] Writing to /projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json
+[2024-09-18 22:23:08.566] [info]  [FileSystemDriver] Writing to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json.b29a120a-92fd-4cf7-b344-0118772cfeaf.tmp then renaming to /home/omolu/.config/Insomnia/version-control/projects/prj_1c49b633cba44b5785801151ee7e5e23/meta.json

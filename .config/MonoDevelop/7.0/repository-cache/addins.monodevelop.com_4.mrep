@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>addins.monodevelop.com</Name>
+  <Url>https://addins.monodevelop.com/Beta/Linux/7.8.4/root.mrep</Url>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.TemplateCreator-0.4_ff8da982b99b4f7b011f60790d85e7df.mpack</Url>
+    <Addin>
+      <Id>TemplateCreator</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Template Creator</Name>
+      <Version>0.4</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT</Copyright>
+      <Url>https://github.com/mrward/monodevelop-template-creator-addin</Url>
+      <Description>Create project templates for Visual Studio for Mac</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">230479</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.LanguageServer.Client-0.1_01053eb7677a9e48bf7b174ddf6d7f46.mpack</Url>
+    <Addin>
+      <Id>LanguageServer.Client</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Language Server Client</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Language Server support</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.4</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.4</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Refactoring</AddinId>
+          <Version>7.4</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>7.4</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">108585</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Test.Test-7.5.4_d0b951f12ba8591181281e3502a1fa01.mpack</Url>
+    <Addin>
+      <Id>Test</Id>
+      <Namespace>Test</Namespace>
+      <Name>Test</Name>
+      <Version>7.5.4</Version>
+      <BaseVersion />
+      <Author>Test</Author>
+      <Copyright />
+      <Url />
+      <Description>Test</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1801898</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.RunCustomTool-0.1_e5fee4ea9bd8165e12d9c530cec1b5a0.mpack</Url>
+    <Addin>
+      <Id>RunCustomTool</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Run Custom Tool</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Adds a way to run custom tools for the project</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">7634</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.TaskRunnersBundle-0.1_ab2a71970eb854456e843c69ceb550ab.mpack</Url>
+    <Addin>
+      <Id>TaskRunnersBundle</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Task Runners Bundle</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT</Copyright>
+      <Url>https://github.com/mrward/monodevelop-task-runner-addin</Url>
+      <Description>Bundled Task Runners: Cake, Grunt, Gulp, NPM and TypeScript</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">66126</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/ResxTemplates.ResxTemplates-0.1.1_4ed825fd4a1b87adfa05b6fd36fc5582.mpack</Url>
+    <Addin>
+      <Id>ResxTemplates</Id>
+      <Namespace>ResxTemplates</Namespace>
+      <Name>ResxTemplates</Name>
+      <Version>0.1.1</Version>
+      <BaseVersion />
+      <Author>calebmorris</Author>
+      <Copyright>calebmorris</Copyright>
+      <Url />
+      <Description>ResxTemplates</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">4063</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/ProjectTranslator.Project Convertor-1.0_70251c5393d73dd7ed42e9ef42a29b2b.mpack</Url>
+    <Addin>
+      <Id>Project Convertor</Id>
+      <Namespace>Translator.Addin</Namespace>
+      <Name>Project Convertor</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Oleg Demchenko &amp; Rustam Zaitov</Author>
+      <Copyright>olegoid</Copyright>
+      <Url>http://xamarin.com/</Url>
+      <Description>Convert Xcode project to Xamarin.iOS project</Description>
+      <Category>Project Import and Export</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.7</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">828760</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.VersionControl.Bazaar-2.4.1_b9c1379e69e16812199f9484a4ec3866.mpack</Url>
+    <Addin>
+      <Id>VersionControl.Bazaar</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Bazaar support for the Version Control Addin</Name>
+      <Version>2.4.1</Version>
+      <BaseVersion />
+      <Author>MonoDevelop-Bazaar Team</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://bazaar-vcs.org/MonoDevelop</Url>
+      <Description>Bazaar support for the Version Control Addin</Description>
+      <Category>Version Control</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">30480</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.EmmetPlugin.EmmetPlugin-0.1.1_83a7a48c3053b0953934bd16f0afaaa5.mpack</Url>
+    <Addin>
+      <Id>EmmetPlugin</Id>
+      <Namespace>MonoDevelop.EmmetPlugin</Namespace>
+      <Name>Emmet</Name>
+      <Version>0.1.1</Version>
+      <BaseVersion />
+      <Author>SHTrassEr</Author>
+      <Copyright>LGPL 3</Copyright>
+      <Url>https://github.com/SHTrassEr/MonoDevelop.EmmetPlugin</Url>
+      <Description>Emmet plugin (for MonoDevelop 3.0). Install Node.js &gt;=0.8.2 before using.</Description>
+      <Category>Web Development</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">279197</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.HaxeBinding-0.4.1_497d6a52ff0a5cce8e8b0a3904f6c75e.mpack</Url>
+    <Addin>
+      <Id>HaxeBinding</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Haxe Language Binding</Name>
+      <Version>0.4.1</Version>
+      <BaseVersion />
+      <Author>Joshua Granick</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url />
+      <Description>Haxe Language Binding</Description>
+      <Category>Language bindings</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">58270</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Paket-0.5_0ed041f5b3c8347df8e2b2f93e28cca9.mpack</Url>
+    <Addin>
+      <Id>Paket</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Paket</Name>
+      <Version>0.5</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Adds Paket support.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>DesignerSupport</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3933574</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/SortAndRemoveOnSave.SortAndRemoveOnSave-1.0_12f0a41072eaeca562c6b1e27c761a39.mpack</Url>
+    <Addin>
+      <Id>SortAndRemoveOnSave</Id>
+      <Namespace>SortAndRemoveOnSave</Namespace>
+      <Name>SortAndRemoveOnSave</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Alex Sorokoletov</Author>
+      <Copyright>alex</Copyright>
+      <Url />
+      <Description>Xamarin Studio Add-in to sort and remove usings when saving C# file</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2804</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/CommodiFusion.SlightlySharper-4.0.1_f475467ff70c6df46b9fc9f7faf088ee.mpack</Url>
+    <Addin>
+      <Id>SlightlySharper</Id>
+      <Namespace>CommodiFusion</Namespace>
+      <Name>SlightlySharper</Name>
+      <Version>4.0.1</Version>
+      <BaseVersion />
+      <Author>CommodiFusion Ltd</Author>
+      <Copyright>BSD</Copyright>
+      <Url />
+      <Description>A keybinding add-in to make MonoDevelop behave slightly more like JetBrains Resharper or IDEA</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">4228</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.PowerShell-0.3_44495da9e72089b70bf13d25d890f155.mpack</Url>
+    <Addin>
+      <Id>PowerShell</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>PowerShell</Name>
+      <Version>0.3</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Adds PowerShell editing support</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Debugger</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Refactoring</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">644190</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/VimAddin.VimAddin-1.1.11_4ce734c08670a25cdc1d45e2c49f27c7.mpack</Url>
+    <Addin>
+      <Id>VimAddin</Id>
+      <Namespace>VimAddin</Namespace>
+      <Name>VimAddin</Name>
+      <Version>1.1.11</Version>
+      <BaseVersion />
+      <Author>atsui</Author>
+      <Copyright>atsui</Copyright>
+      <Url />
+      <Description>A fork of MonoDevelop vi modes. See https://github.com/alextsui05/VimAddin</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">38123</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.ThoseMissingFeatures-0.1_8b5e3f67219ffa2dfa3603361ad46e0b.mpack</Url>
+    <Addin>
+      <Id>ThoseMissingFeatures</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Those Missing Features</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Diego Giacomelli</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://github.com/giacomelli/MonoDevelop.ThoseMissingFeatures</Url>
+      <Description>Those missing features we would like to see in MonoDevelop.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3848</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/ResxEditor.ResxEditor-0.2.0_2f32f0ceb428a698444a8bcd9d09ad73.mpack</Url>
+    <Addin>
+      <Id>ResxEditor</Id>
+      <Namespace>ResxEditor</Namespace>
+      <Name>ResxEditor</Name>
+      <Version>0.2.0</Version>
+      <BaseVersion />
+      <Author>Caleb Morris</Author>
+      <Copyright>calebmorris</Copyright>
+      <Url>https://github.com/CalebMorris/Xamarin-ResxEditor</Url>
+      <Description>Resx editor for simplified resource handling.
+
+Currently only works with string resources.
+
+Support: https://github.com/CalebMorris/Xamarin-ResxEditor</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">14585</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.LimitOpenFiles-0.3_77c657c76a2ebd8c37d40858f94cb446.mpack</Url>
+    <Addin>
+      <Id>LimitOpenFiles</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Limit open Files</Name>
+      <Version>0.3</Version>
+      <BaseVersion />
+      <Author>Mathias L. Baumann 'Marenz'</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>https://github.com/Marenz/MonoDevelop.LimitOpenFiles</Url>
+      <Description>Limits the amount of concurrent open files</Description>
+      <Category>Source Editor Extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3377</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.MonoGame_IDE_VisualStudioForMac-3.7.0.1_5184739925ee81b25a06b49d88db8d65.mpack</Url>
+    <Addin>
+      <Id>MonoGame_IDE_VisualStudioForMac</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>MonoGame Extension</Name>
+      <Version>3.7.0.1</Version>
+      <BaseVersion />
+      <Author>@MonoGameTeam</Author>
+      <Copyright />
+      <Url />
+      <Description>VisualStudio for Mac extension for MonoGame</Description>
+      <Category>Game Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">838981</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.TaskRunner-0.1_4ca213efd4ae8ef41f74545d5dfbe536.mpack</Url>
+    <Addin>
+      <Id>TaskRunner</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Task Runner Explorer</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Adds a Task Runner Explorer</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">37975</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Xavalon.XamlStyler-1.0.3_39b7caf92b5bf9dfc1a22e255919667e.mpack</Url>
+    <Addin>
+      <Id>XamlStyler</Id>
+      <Namespace>Xavalon</Namespace>
+      <Name>XamlStyler</Name>
+      <Version>1.0.3</Version>
+      <BaseVersion />
+      <Author>Xavalon &amp; Ben Lacey</Author>
+      <Copyright>Copyright ©  2016</Copyright>
+      <Url />
+      <Description>A Xamarin Studio port of the Visual Studio XamlStyler extension.  Reformat your XAML to be more readable, maintainable and beautiful!</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.SourceEditor2</AddinId>
+          <Version>6.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>6.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>6.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">519683</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/JustEnoughVi.JustEnoughVi-0.12_a54e77c165ec17bf202852f972643cc6.mpack</Url>
+    <Addin>
+      <Id>JustEnoughVi</Id>
+      <Namespace>JustEnoughVi</Namespace>
+      <Name>Just Enough Vi</Name>
+      <Version>0.12</Version>
+      <BaseVersion />
+      <Author>Toni Spets</Author>
+      <Copyright>Toni Spets</Copyright>
+      <Url />
+      <Description>Simplified Vi/Vim mode for MonoDevelop/Xamarin Studio.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">14014</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Refactoring.Unity-5.0_06008392659f273b6ae4130c373e2aef.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Refactoring.Unity</Id>
+      <Namespace />
+      <Name>MonoDevelop.Refactoring.Unity</Name>
+      <Version>5.0</Version>
+      <BaseVersion />
+      <Author>makarov@alternativaplatform.com</Author>
+      <Copyright>Copyrigth (c) 2014 AlternativaPlatform.com</Copyright>
+      <Url>https://github.com/sergerus/MonoDevelop.Refactoring.Unity</Url>
+      <Description>Tracks file operations and handle Unity3d meta files.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">6128</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelopEditorConfigAddin.MonoDevelopEditorConfigAddin-0.1_cf505cd13759318e8e800e3c5b4747e0.mpack</Url>
+    <Addin>
+      <Id>MonoDevelopEditorConfigAddin</Id>
+      <Namespace>MonoDevelopEditorConfigAddin</Namespace>
+      <Name>EditorConfigAddin</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Eberhard Beilharz</Author>
+      <Copyright>(C) 2016 Eberhard Beilharz</Copyright>
+      <Url>editorconfig.org</Url>
+      <Description>EditorConfig Addin for MonoDevelop
+
+Maps the settings from .editorconfig files to the settings of MonoDevelop.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">4057</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.OpenWith-0.1_31f54adffe725cc4b54d1c1b8667496a.mpack</Url>
+    <Addin>
+      <Id>OpenWith</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Open With</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright />
+      <Url />
+      <Description>Provides a way to change the default editor or application used to open files</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">16566</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/SSHDebugger.SSHDebugger-0.4_cf7125b1a2edcd1d1bafe62c66e76a53.mpack</Url>
+    <Addin>
+      <Id>SSHDebugger</Id>
+      <Namespace>SSHDebugger</Namespace>
+      <Name>SSH Debugger</Name>
+      <Version>0.4</Version>
+      <BaseVersion />
+      <Author>Stuart Johnson, Logic Ethos Ltd</Author>
+      <Copyright>Stuart Johnson</Copyright>
+      <Url>https://github.com/logicethos/SSHDebugger</Url>
+      <Description>Deploy, execute and debug your .NET apps running on a remote computer, directly from Monodevelop and Xamarin Studio. Includes a full XTerm console, on the Linux version. Standard text window on Win and Mac.</Description>
+      <Category>Debugging</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">SSH Debugger (VTE Xterm version)</Property>
+        <Property name="Category">Debugging</Property>
+        <Property name="Name" locale="en-GB">SSH Debugger</Property>
+        <Property name="Description">Deploy, execute and debug your .NET apps running on a remote computer, directly from Monodevelop and Xamarin Studio. Includes a full XTerm console, on the Linux version. Standard text window on Win and Mac.</Property>
+        <Property name="Author">Stuart Johnson, Logic Ethos Ltd</Property>
+        <Property name="Url">https://github.com/logicethos/SSHDebugger</Property>
+        <Property name="UpdateRank">MySpecialTag:Normal</Property>
+        <Property name="PreviewImage">_addin_files/1f85359b.png</Property>
+        <Property name="DownloadSize">822808</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.D-0.4.1.6_d9ab416c1a811369b1d30cf51cdb14f2.mpack</Url>
+    <Addin>
+      <Id>D</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>D Language Binding</Name>
+      <Version>0.5.5.4</Version>
+      <BaseVersion />
+      <Author>Alexander Bothe</Author>
+      <Copyright />
+      <Url>http://mono-d.alexanderbothe.com</Url>
+      <Description>D Language Binding</Description>
+      <Category>Language bindings</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>DesignerSupport</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Refactoring</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">478737</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.NuGetPackageExplorer-0.3_94fae3312dc41434bba417bf8db59fc2.mpack</Url>
+    <Addin>
+      <Id>NuGetPackageExplorer</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>NuGet Package Explorer</Name>
+      <Version>0.3</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Open and view NuGet packages (.nupkg). Adds support for viewing SemVer 2.0 NuGet packages.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>PackageManagement</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>DotNetCore</AddinId>
+          <Version>7.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1380497</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.PackageManagement.Extensions-0.17_d0fc2f78f9292258fc874fa191014b1f.mpack</Url>
+    <Addin>
+      <Id>PackageManagement.Extensions</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>NuGet Package Management Extensions</Name>
+      <Version>0.17</Version>
+      <BaseVersion />
+      <Author>Matt Ward</Author>
+      <Copyright>MIT</Copyright>
+      <Url>https://github.com/mrward/monodevelop-nuget-extensions</Url>
+      <Description>Provides extensions to the NuGet addin. Supports Visual Studio for Mac 7.8.3 build 2 and later versions.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1028002</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.FileNesting-0.1_442432c432b2e87aec4d5e2047b744d1.mpack</Url>
+    <Addin>
+      <Id>FileNesting</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>FileNesting</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright>Mads Kristensen</Copyright>
+      <Url />
+      <Description>Adds File Nesting support.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>6.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>6.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">13767</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.R7.DnnTemplates-0.5.0_20601e4c36de40d39e9f7276ca3f336e.mpack</Url>
+    <Addin>
+      <Id>R7.DnnTemplates</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>DNN Platform Templates &amp; Support</Name>
+      <Version>0.5.0</Version>
+      <BaseVersion />
+      <Author>Roman M. Yagodin</Author>
+      <Copyright />
+      <Url>https://github.com/roman-yagodin/R7.DnnTemplates</Url>
+      <Description>Templates for module, skin object and packaging projects for DNN Platform. Also provides syntax highlighting for DNN manifest files and SqlDataProvider scripts.</Description>
+      <Category>Web Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">DNN Platform Templates &amp; Support</Property>
+        <Property name="Category">Web Development</Property>
+        <Property name="Description">Templates for module, skin object and packaging projects for DNN Platform. Also provides syntax highlighting for DNN manifest files and SqlDataProvider scripts.</Property>
+        <Property name="Author">Roman M. Yagodin</Property>
+        <Property name="Url">https://github.com/roman-yagodin/R7.DnnTemplates</Property>
+        <Property name="Icon32">_addin_files/60003073.png</Property>
+        <Property name="UpdateRank">Minor</Property>
+        <Property name="ReleaseNotesFile">releaseNotes.txt</Property>
+        <Property name="DownloadSize">26163</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>

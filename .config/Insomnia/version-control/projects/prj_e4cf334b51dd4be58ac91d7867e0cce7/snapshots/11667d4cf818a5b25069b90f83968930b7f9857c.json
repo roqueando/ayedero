@@ -1,0 +1,25 @@
+{
+  "author": "acct_8989034818674c41ae9fa8b88eff08e6",
+  "authorAccount": {
+    "email": "vitor.roquep@gmail.com",
+    "firstName": "vitor.roquep@gmail.com",
+    "lastName": ""
+  },
+  "created": "2024-09-17T02:47:21.615Z",
+  "description": "",
+  "id": "11667d4cf818a5b25069b90f83968930b7f9857c",
+  "name": "Initial Snapshot",
+  "parent": "0000000000000000000000000000000000000000",
+  "state": [
+    {
+      "blob": "d3c9a17d9b56c5d34bb5c22e950c5797e5bf3710",
+      "key": "env_7345a5155eea6167c2f40bbfb764e0720bd92bcc",
+      "name": "Base Environment"
+    },
+    {
+      "blob": "09253254e2c4524809f0dc6e1550a6c7a5fdb377",
+      "key": "wrk_4c4328fab4bc43429bd33b04573d7bde",
+      "name": "Ayaworan"
+    }
+  ]
+}

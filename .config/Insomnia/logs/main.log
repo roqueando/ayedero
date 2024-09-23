@@ -1,0 +1,54 @@
+[2024-09-19 23:12:43.929] [info]  Running version 10.0.0
+[2024-09-19 23:12:43.942] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2024-09-19 23:12:43.951] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2024-09-19 23:12:43.969] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2024-09-19 23:12:44.134] [info]  [fix] Running database repairs
+[2024-09-19 23:12:44.224] [info]  [db] Initialized DB at /home/omolu/.config/Insomnia/insomnia.$TYPE.db
+[2024-09-19 23:12:44.224] [info]  [db] Init responses DB
+[2024-09-19 23:12:44.224] [info]  [db] Init websocket-responses DB
+[2024-09-19 23:12:44.225] [info]  [localstorage] Initialized at /home/omolu/.config/Insomnia/localStorage
+[2024-09-19 23:12:44.264] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2024-09-19 23:12:44.279] [info]  [main] Registering the hidden window restarting handler
+[2024-09-19 23:12:44.280] [info]  [updater] Not supported on this platform linux
+[2024-09-19 23:12:45.522] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2024-09-19 23:12:45.527] [info]  [main] Check args and create windows []
+[2024-09-19 23:12:45.528] [info]  [main] Checking for newer version than  10.0.0
+[2024-09-19 23:12:45.949] [info]  [main] Found newer version
+[2024-09-19 23:12:45.952] [info]  [main] Backup found at: /home/omolu/.config/Insomnia/backups/10.0.0
+[2024-09-20 00:35:09.078] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 00:35:09.083] [error] Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 00:35:12.159] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 00:35:12.162] [error] Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:12.574] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:12.577] [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:12.579] [error] Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:12.634] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:15.631] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:15.633] [error] Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:18.643] [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2024-09-20 11:57:18.645] [error] Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:115482)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)

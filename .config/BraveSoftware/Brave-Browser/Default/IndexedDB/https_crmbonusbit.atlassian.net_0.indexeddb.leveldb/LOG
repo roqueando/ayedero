@@ -1,0 +1,12 @@
+2024/09/18-19:40:51.436 40510 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_crmbonusbit.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/18-19:40:51.436 40510 Recovering log #48
+2024/09/18-19:40:51.476 40510 Reusing old log /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_crmbonusbit.atlassian.net_0.indexeddb.leveldb/000048.log 
+2024/09/18-19:41:13.495 404fa Level-0 table #53: started
+2024/09/18-19:41:13.521 404fa Level-0 table #53: 1897916 bytes OK
+2024/09/18-19:41:13.524 404fa Delete type=0 #48
+2024/09/18-19:42:07.354 404f9 Compacting 1@1 + 1@2 files
+2024/09/18-19:42:07.405 404f9 Generated table #54@1: 8280 keys, 623467 bytes
+2024/09/18-19:42:07.405 404f9 Compacted 1@1 + 1@2 files => 623467 bytes
+2024/09/18-19:42:07.409 404f9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/18-19:42:07.409 404f9 Delete type=2 #50
+2024/09/18-19:42:07.410 404f9 Delete type=2 #53

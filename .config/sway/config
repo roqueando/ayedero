@@ -27,8 +27,8 @@ set {
 #exec_always foot --server
 set $term foot
 
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 4
+default_floating_border pixel 4
 
 #
 # Focus layout
@@ -46,8 +46,9 @@ output * {
   bg ~/.config/wallpaper.png fill
 }
 
-smart_borders on
-gaps inner 6
+#smart_borders on
+gaps inner 8
+gaps outer 8
 
 input {
   type:touchpad {
@@ -57,14 +58,11 @@ input {
     dwt disabled
   }
 
-  type:keyboard {
-    xkb_options ctrl:nocaps
-  }
-
   type:touch {
     events disabled
   }
 }
+
 
 #
 # Load Xresources
@@ -237,11 +235,14 @@ client.urgent           $red $red $accent $red $red
 #
 xwayland enable
 
+exec /usr/bin/keyboard.sh
+
 #
 # Status Bar:
 #
 bar swaybar_command waybar
 
+exec --no-startup-id xset r rate 200 30
 bindsym $mod+t layout toggle tabbed split
 
 include /etc/sway/config.d/*

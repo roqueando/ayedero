@@ -1,0 +1,6 @@
+2024/09/07-22:10:01.785 1925 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.codewars.com_0.indexeddb.leveldb since it was missing.
+2024/09/07-22:10:01.788 1925 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.codewars.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/07-22:10:03.884 1926 Level-0 table #5: started
+2024/09/07-22:10:03.887 1926 Level-0 table #5: 4898 bytes OK
+2024/09/07-22:10:03.890 1926 Delete type=0 #3
+2024/09/07-22:10:03.891 1926 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

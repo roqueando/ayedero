@@ -603,6 +603,8 @@ myKeys =
         , ("M-S-r", spawn "xmonad --restart")        -- Restarts xmonad
         , ("M-S-e", io exitSuccess)                  -- Quits xmonad
         , ("M-d", spawn "rofi -show drun")                  -- Quits xmonad
+        , ("M-S-u", spawn "light -U 5")
+        , ("M-S-i", spawn "light -A 5")
 
     -- Open my preferred terminal
         , ("M-<Return>", spawn myTerminal)

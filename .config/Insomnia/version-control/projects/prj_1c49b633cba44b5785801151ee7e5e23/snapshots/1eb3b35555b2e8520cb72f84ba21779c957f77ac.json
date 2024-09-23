@@ -1,0 +1,25 @@
+{
+  "author": "acct_8989034818674c41ae9fa8b88eff08e6",
+  "authorAccount": {
+    "email": "vitor.roquep@gmail.com",
+    "firstName": "vitor.roquep@gmail.com",
+    "lastName": ""
+  },
+  "created": "2024-09-18T00:51:20.5Z",
+  "description": "",
+  "id": "1eb3b35555b2e8520cb72f84ba21779c957f77ac",
+  "name": "Initial Snapshot",
+  "parent": "0000000000000000000000000000000000000000",
+  "state": [
+    {
+      "blob": "8e0df3953906fbbc6195b73d18adaf1efbe7b8db",
+      "key": "env_1bdda19c0dcf87a49cdeead4c10b58d379ac1a7b",
+      "name": "Base Environment"
+    },
+    {
+      "blob": "915e774de72516958521b5ae6dccc363f0fb244c",
+      "key": "wrk_75d9a3e849984297b11d7aa0839f1eaf",
+      "name": "Shops - CRM Bonus"
+    }
+  ]
+}

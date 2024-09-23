@@ -1,0 +1,6 @@
+2024/09/21-21:58:52.635 28f96 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.codingame.com_0.indexeddb.leveldb since it was missing.
+2024/09/21-21:58:52.639 28f96 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.codingame.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/21-22:01:44.909 28f97 Level-0 table #5: started
+2024/09/21-22:01:44.911 28f97 Level-0 table #5: 16043 bytes OK
+2024/09/21-22:01:44.913 28f97 Delete type=0 #3
+2024/09/21-22:01:44.914 28f97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

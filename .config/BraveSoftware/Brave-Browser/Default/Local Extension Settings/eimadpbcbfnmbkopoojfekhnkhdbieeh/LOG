@@ -1,0 +1,14 @@
+2024/09/23-17:39:10.743 155c93 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/eimadpbcbfnmbkopoojfekhnkhdbieeh/MANIFEST-000001
+2024/09/23-17:39:10.744 155c93 Recovering log #4895
+2024/09/23-17:39:10.748 155c93 Level-0 table #4898: started
+2024/09/23-17:39:10.765 155c93 Level-0 table #4898: 1773086 bytes OK
+2024/09/23-17:39:10.767 155c93 Delete type=0 #4895
+2024/09/23-17:39:10.767 155caa Compacting 4@0 + 1@1 files
+2024/09/23-17:39:10.780 155caa Generated table #4900@0: 5 keys, 297918 bytes
+2024/09/23-17:39:10.780 155caa Compacted 4@0 + 1@1 files => 297918 bytes
+2024/09/23-17:39:10.808 155caa compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/23-17:39:10.808 155caa Delete type=2 #4898
+2024/09/23-17:39:10.808 155caa Delete type=2 #4892
+2024/09/23-17:39:10.808 155caa Delete type=2 #4894
+2024/09/23-17:39:10.808 155caa Delete type=2 #4890
+2024/09/23-17:39:10.808 155caa Delete type=2 #4896

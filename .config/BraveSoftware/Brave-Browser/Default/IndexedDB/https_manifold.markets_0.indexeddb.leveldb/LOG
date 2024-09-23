@@ -1,0 +1,7 @@
+2024/09/01-13:36:51.606 4efa Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_manifold.markets_0.indexeddb.leveldb since it was missing.
+2024/09/01-13:36:51.609 4efa Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_manifold.markets_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/01-13:36:51.742 4efc Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/09/01-13:36:58.518 4efb Level-0 table #5: started
+2024/09/01-13:36:58.520 4efb Level-0 table #5: 2530 bytes OK
+2024/09/01-13:36:58.522 4efb Delete type=0 #3
+2024/09/01-13:36:58.523 4efb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

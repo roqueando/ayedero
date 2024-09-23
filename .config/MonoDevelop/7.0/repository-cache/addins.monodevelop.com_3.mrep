@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>addins.monodevelop.com</Name>
+  <Url>https://addins.monodevelop.com/Stable/Linux/7.8.4/root.mrep</Url>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.GtkCore.GtkSharp.2.10-2.10.6_467127b0a064ee377bbcc38a5229748d.mpack</Url>
+    <Addin>
+      <Id>GtkCore.GtkSharp.2.10</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>GTK# 2.10 Compilation Support</Name>
+      <Version>2.10.6</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Allows building applications which target GTK# 2.10</Description>
+      <Category>GTK</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>2.6</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>GtkCore</AddinId>
+          <Version>2.6</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">694038</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Prime31.Prime31.RemoveTrailingWhitespaceAddin-0.3_96674ce4c66bbe734c62532d3fa6e293.mpack</Url>
+    <Addin>
+      <Id>Prime31.RemoveTrailingWhitespaceAddin</Id>
+      <Namespace>Prime31</Namespace>
+      <Name>Better File Saver</Name>
+      <Version>0.3</Version>
+      <BaseVersion />
+      <Author>Mike Desaro</Author>
+      <Copyright>nobody</Copyright>
+      <Url>https://github.com/prime31/MonoDevelopBetterFileSaver</Url>
+      <Description>Provides Save and Save All commands that remove trailing whitespace before saving</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Better File Saver</Property>
+        <Property name="Description">Provides Save and Save All commands that remove trailing whitespace before saving</Property>
+        <Property name="Author">Mike Desaro</Property>
+        <Property name="Url">https://github.com/prime31/MonoDevelopBetterFileSaver</Property>
+        <Property name="Category">IDE extensions</Property>
+        <Property name="DownloadSize">3453</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.TechTalk.SpecFlow-2.4_0348632ed6999e4ed09e9b40d5b922fb.mpack</Url>
+    <Addin>
+      <Id>TechTalk.SpecFlow</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>SpecFlow Support</Name>
+      <Version>2.4</Version>
+      <BaseVersion />
+      <Author>TechTalk, SineSignal</Author>
+      <Copyright>BSD</Copyright>
+      <Url>http://www.specflow.org</Url>
+      <Description>Integrates SpecFlow into the MonoDevelop IDE.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3852686</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/SpecialCopy.JSONCopy-1.1_b8eda090f95c3114260610bfbdda6ce5.mpack</Url>
+    <Addin>
+      <Id>JSONCopy</Id>
+      <Namespace>SpecialCopy</Namespace>
+      <Name>JSON Copy</Name>
+      <Version>1.1</Version>
+      <BaseVersion />
+      <Author>Prashant Cholachagudda</Author>
+      <Copyright>Prashant Cholachagudda</Copyright>
+      <Url />
+      <Description>Paste JSON as C# class</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">270181</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/GistIdeInformation.GistIdeInformation-1.1.0_7dd67d0918b71ceceebb63e985cfbb70.mpack</Url>
+    <Addin>
+      <Id>GistIdeInformation</Id>
+      <Namespace>GistIdeInformation</Namespace>
+      <Name>Gist Ide Information</Name>
+      <Version>1.1.0</Version>
+      <BaseVersion />
+      <Author>Kyle White</Author>
+      <Copyright>(c) Kyle White</Copyright>
+      <Url>https://github.com/kdubau/GistIdeInformation</Url>
+      <Description>Adds a Help command to create a Gist with the IDE information and IDE log files. Requires a GitHub personal access token with Gist permission.
+
+This is very useful for reporting bugs!
+https://bugzilla.xamarin.com/</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">212186</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Boo-0.9.4.2_32b5bdd4a7a266e7e759e5445f121b7f.mpack</Url>
+    <Addin>
+      <Id>Boo</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Boo Language Binding</Name>
+      <Version>0.9.4.2</Version>
+      <BaseVersion />
+      <Author>Rodrigo B. de Oliveira</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://boo.codehaus.org/</Url>
+      <Description>Provides support for the Boo programming language.</Description>
+      <Category>Language bindings</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">653682</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Debugger.Soft.Unity-5.0_64e61e7a48bbaa5dce5fb84e9749c1d0.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Debugger.Soft.Unity</Id>
+      <Namespace />
+      <Name>Mono Soft Debugger Support for Unity</Name>
+      <Version>5.0</Version>
+      <BaseVersion />
+      <Author>Clifford Roche based on work from Lucas Meijer and others</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://github.com/cmroche/MonoDevelop.Debugger.Soft.Unity</Url>
+      <Description>Mono Soft Debugger Support for Unity</Description>
+      <Category>Unity</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">17082</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/StraightEight.VsMac.SpecFlow-1.11.1.0_b006710d93d4445893586cae5788d973.mpack</Url>
+    <Addin>
+      <Id>StraightEight.VsMac.SpecFlow</Id>
+      <Namespace />
+      <Name>Straight8's SpecFlow Integration</Name>
+      <Version>1.11.1.0</Version>
+      <BaseVersion />
+      <Author>TechTalk, SineSignal, Mike Jones, Jim Bennett</Author>
+      <Copyright>Straight8</Copyright>
+      <Url />
+      <Description>Integrates TechTalks's SpecFlow into the Visual Studio for Mac IDE.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">12018655</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.R7.DnnTemplates-0.9.1_5548fec7b1cdedbd56ac36e74072a2b2.mpack</Url>
+    <Addin>
+      <Id>R7.DnnTemplates</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>DNN Platform Templates and Support</Name>
+      <Version>0.9.1</Version>
+      <BaseVersion />
+      <Author>Roman M. Yagodin</Author>
+      <Copyright>Roman M. Yagodin</Copyright>
+      <Url>https://github.com/roman-yagodin/R7.Dnn.Templates</Url>
+      <Description>Templates for module, skin object and deployment projects for DNN Platform. Also provides syntax highlighting for DNN manifest files and SqlDataProvider scripts.</Description>
+      <Category>Web Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">DNN Platform Templates and Support</Property>
+        <Property name="Category">Web Development</Property>
+        <Property name="Description">Templates for module, skin object and deployment projects for DNN Platform. Also provides syntax highlighting for DNN manifest files and SqlDataProvider scripts.</Property>
+        <Property name="Author">Roman M. Yagodin</Property>
+        <Property name="Url">https://github.com/roman-yagodin/R7.Dnn.Templates</Property>
+        <Property name="Icon32">_addin_files/289c1458.png</Property>
+        <Property name="UpdateRank">Normal</Property>
+        <Property name="ReleaseNotesFile">releaseNotes.txt</Property>
+        <Property name="DownloadSize">48119</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Kelani.Kelani-1.0_f5d6bdaefa8d2280ea77ff7e2e5982d5.mpack</Url>
+    <Addin>
+      <Id>Kelani</Id>
+      <Namespace>Kelani</Namespace>
+      <Name>Kelani</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Mikayla Hutchinson</Author>
+      <Copyright />
+      <Url />
+      <Description>Kelani</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2756</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/ProjectLinker.ProjectLinker-1.1_a5cb55dd9d7278b9769adfe7c843ada2.mpack</Url>
+    <Addin>
+      <Id>ProjectLinker</Id>
+      <Namespace>ProjectLinker</Namespace>
+      <Name>Project linker</Name>
+      <Version>1.1</Version>
+      <BaseVersion />
+      <Author>Rafael Steil</Author>
+      <Copyright>LGPL</Copyright>
+      <Url>http://rafaelsteil.github.io/monodevelop-project-linker</Url>
+      <Description>Automatically link files from one project onto another</Description>
+      <Category>Project Extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="UpdateRank">Normal</Property>
+        <Property name="ReleaseNotes">
+			{{1.1, 2013-08-14}}
+			Fixed two issues:
+			- Sync now correctly removes all inexistent files
+			- Fixed an issue where Visual Studio would not recognize the project items if the target project was in the same directory structure of the source project
+		</Property>
+        <Property name="DownloadSize">12657</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Eto.Addin.XamarinStudio-2.3.0.6_3abd9de3f003b7df492388cb5404edd2.mpack</Url>
+    <Addin>
+      <Id>XamarinStudio</Id>
+      <Namespace>Eto.Addin</Namespace>
+      <Name>Eto.Forms Support Addin</Name>
+      <Version>2.3.0.6</Version>
+      <BaseVersion />
+      <Author>Curtis Wensley</Author>
+      <Copyright>Curtis Wensley</Copyright>
+      <Url />
+      <Description>Addin to easily start developing with the Eto.Forms cross platform UI framework.
+
+Provides:
+
+- File and Project templates for C#, VB.NET, and F#.
+- Autocomplete for the Xaml view editor.
+- Xaml, Json, and Code based live form preview.</Description>
+      <Category>Eto.Forms</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">12948293</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Java.Mimetypes-1.0_4a8096039998352d3e74cb9dc1d881df.mpack</Url>
+    <Addin>
+      <Id>Java.Mimetypes</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Java Mimetypes</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Julian Adams</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Adds x-java mimetype to .java files to enable syntax coloring</Description>
+      <Category>Source Editor Extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1758</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/VSMacDeepClean.VSMacDeepClean-1.2.2_9514c6b74725866e96f690a5ff9b4232.mpack</Url>
+    <Addin>
+      <Id>VSMacDeepClean</Id>
+      <Namespace>VSMacDeepClean</Namespace>
+      <Name>DeepClean</Name>
+      <Version>1.2.2</Version>
+      <BaseVersion />
+      <Author>Evgeny Zborovsky</Author>
+      <Copyright />
+      <Url>https://github.com/yuv4ik/vsmacdeepclean</Url>
+      <Description>Set of a useful tools for your favorite IDE.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">5544</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Test.Test-7.5.3_a465b3af59d8ea393dba6d03631e9a2f.mpack</Url>
+    <Addin>
+      <Id>Test</Id>
+      <Namespace>Test</Namespace>
+      <Name>Test</Name>
+      <Version>7.5.3</Version>
+      <BaseVersion />
+      <Author>Test</Author>
+      <Copyright />
+      <Url />
+      <Description>Test</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1801898</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Gendarme-0.5.0_27cd17cdf3b4f4cbc0a75258434e13b0.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Gendarme</Id>
+      <Namespace />
+      <Name>Gendarme Support</Name>
+      <Version>0.5.0</Version>
+      <BaseVersion />
+      <Author>Anas EL HAJJAJI</Author>
+      <Copyright>APL 2.0</Copyright>
+      <Url>https://github.com/anaselhajjaji/MonoDevelop.Gendarme</Url>
+      <Description>Provides gendarme support to MonoDevelop</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">623666</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.StyleCop-1.1.0.0_80affb3573a186973d2fd828b4e873e3.mpack</Url>
+    <Addin>
+      <Id>StyleCop</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>StyleCop Support</Name>
+      <Version>1.1.0.0</Version>
+      <BaseVersion />
+      <Author>Alexander Jochum</Author>
+      <Copyright>APL 2.0</Copyright>
+      <Url />
+      <Description>Provides StyleCop support to MonoDevelop</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2564497</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/CSharpInteractive.CSharpInteractive-1.0_3e309f18e536053b465afba8363b6d47.mpack</Url>
+    <Addin>
+      <Id>CSharpInteractive</Id>
+      <Namespace>CSharpInteractive</Namespace>
+      <Name>C# Interactive</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Frank A. Krueger</Author>
+      <Copyright>2013 Frank A. Krueger</Copyright>
+      <Url />
+      <Description>C# Interactive</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">7719</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MaterialIconsGenerator.material-icons-generator-plugin-1.4_f9ec21a19ea9c11134dce31dbd8b21ee.mpack</Url>
+    <Addin>
+      <Id>material-icons-generator-plugin</Id>
+      <Namespace>MaterialIconsGenerator</Namespace>
+      <Name>Material icons generator</Name>
+      <Version>1.4</Version>
+      <BaseVersion />
+      <Author>Nika Nikabadze</Author>
+      <Copyright>Nika</Copyright>
+      <Url>https://github.com/interisti/material-icons-generator-plugin</Url>
+      <Description>This plugin help you to set material design icons to your Android project.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">184713</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/AndroidKeystoreSignatureTool.AndroidSigTool-2.1.3_d0a0852c095da0a857aa20e597cd1c0e.mpack</Url>
+    <Addin>
+      <Id>AndroidSigTool</Id>
+      <Namespace>AndroidKeystoreSignatureTool</Namespace>
+      <Name>Android Signature Tool</Name>
+      <Version>2.1.3</Version>
+      <BaseVersion />
+      <Author>Jon Dick</Author>
+      <Copyright>Jon Dick</Copyright>
+      <Url>http://redth.codes</Url>
+      <Description>Helps find your MD5, SHA1, SHA256 and Facebook SHA1 signatures of your .keystore files, including the default Xamarin.Android generated debug.keystore file</Description>
+      <Category>Mobile Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">19931</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.WebSharper-3.5.14.0_c6e9ecf7098579bc7ea7cab1ed9235c4.mpack</Url>
+    <Addin>
+      <Id>WebSharper</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>WebSharper</Name>
+      <Version>3.5.14.0</Version>
+      <BaseVersion />
+      <Author>IntelliFactory</Author>
+      <Copyright>Copyright (c) 2008-2014 IntelliFactory</Copyright>
+      <Url />
+      <Description>Provides WebSharper support for MonoDevelop and Xamarin Studio</Description>
+      <Category>Web Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">679611</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/ShowInGithub.ShowInGithub-1.0.4_2f748d078e6b6c86faa575bcd3f3136f.mpack</Url>
+    <Addin>
+      <Id>ShowInGithub</Id>
+      <Namespace>ShowInGithub</Namespace>
+      <Name>Show in Github</Name>
+      <Version>1.0.4</Version>
+      <BaseVersion />
+      <Author>Lluis Sanchez Gual</Author>
+      <Copyright />
+      <Url />
+      <Description>Adds a command to the text editor context menu which will jump to the current file and line in Github</Description>
+      <Category>Version Control</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">269525</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Bookmarks-1.2_6dec8d830502710ee8877e8362a7a589.mpack</Url>
+    <Addin>
+      <Id>Bookmarks</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Bookmarks extension for MonoDevelop</Name>
+      <Version>1.2</Version>
+      <BaseVersion />
+      <Author>Ventsislav Mladenov</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Numbered Bookmarks, Global Bookmarks, Bookmark Pad</Description>
+      <Category>Others</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">16347</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/TechTalk.SpecFlow.TechTalk.SpecFlow-1.9.1.0_2b9a6253657d09319637f77987e2eac3.mpack</Url>
+    <Addin>
+      <Id>TechTalk.SpecFlow</Id>
+      <Namespace>TechTalk.SpecFlow</Namespace>
+      <Name>SpecFlow Support</Name>
+      <Version>1.9.1.0</Version>
+      <BaseVersion />
+      <Author>TechTalk, SineSignal, Mike Jones</Author>
+      <Copyright>ABEL Learinng Limited</Copyright>
+      <Url />
+      <Description>Integrates SpecFlow into the Xamarin Studio IDE.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3300458</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.WakaTime-3.0.5_16f81e1a74cd4f6c28bad82108cf0f32.mpack</Url>
+    <Addin>
+      <Id>WakaTime</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>WakaTime</Name>
+      <Version>3.0.5</Version>
+      <BaseVersion />
+      <Author>Zhmayev Yaroslav (salaros)</Author>
+      <Copyright />
+      <Url>https://github.com/salaros/monodevelop-wakatime</Url>
+      <Description>WakaTime is a productivity and time tracking tool for programmers. Once the WakaTime plugin is installed, you get a dashboard with reports about your programming by time, language, project, and branch.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">140176</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Mutatio.Mutatio-1.0.2_8e1461e1eccefa15ef9b2c93f9e1b1f6.mpack</Url>
+    <Addin>
+      <Id>Mutatio</Id>
+      <Namespace>Mutatio</Namespace>
+      <Name>Mutatio</Name>
+      <Version>1.0.2</Version>
+      <BaseVersion />
+      <Author>Evgeny Zborovsky</Author>
+      <Copyright />
+      <Url>https://github.com/yuv4ik/mutatio</Url>
+      <Description>Automatically convert projects from PCL to .NET Standard 2.0.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">286305</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/SSHDebugger.SSHDebugger-0.5_8838e5037bca56886bc1b5b6e51de9e3.mpack</Url>
+    <Addin>
+      <Id>SSHDebugger</Id>
+      <Namespace>SSHDebugger</Namespace>
+      <Name>SSH Debugger</Name>
+      <Version>0.5</Version>
+      <BaseVersion />
+      <Author>Stuart Johnson, Logic Ethos Ltd</Author>
+      <Copyright />
+      <Url>https://github.com/logicethos/SSHDebugger</Url>
+      <Description>Deploy, execute and debug your .NET apps running on a remote computer, directly from Monodevelop and Xamarin Studio. Includes a full XTerm console, on the Linux version. Standard text window on Win and Mac.</Description>
+      <Category>Debugging</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">SSH Debugger (VTE Xterm version)</Property>
+        <Property name="Category">Debugging</Property>
+        <Property name="Name" locale="en-GB">SSH Debugger</Property>
+        <Property name="Description">Deploy, execute and debug your .NET apps running on a remote computer, directly from Monodevelop and Xamarin Studio. Includes a full XTerm console, on the Linux version. Standard text window on Win and Mac.</Property>
+        <Property name="Author">Stuart Johnson, Logic Ethos Ltd</Property>
+        <Property name="Url">https://github.com/logicethos/SSHDebugger</Property>
+        <Property name="UpdateRank">MySpecialTag:Normal</Property>
+        <Property name="PreviewImage">_addin_files/7014ab47.png</Property>
+        <Property name="DownloadSize">402598</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.MicroFramework-1.0.3_60db44a7258db988d6dd2ef271514918.mpack</Url>
+    <Addin>
+      <Id>MicroFramework</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>MicroFramework</Name>
+      <Version>1.0.3</Version>
+      <BaseVersion />
+      <Author>David Karlaš &amp; Jérémie Laval</Author>
+      <Copyright />
+      <Url />
+      <Description>Provides support for .Net MicroFramework developing, deploying and debugging.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">11980541</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.D-2.14.5_70c6e5010def230991eaf26b371c2aff.mpack</Url>
+    <Addin>
+      <Id>D</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>D Language Binding</Name>
+      <Version>2.14.5</Version>
+      <BaseVersion />
+      <Author>Alexander Bothe</Author>
+      <Copyright>Alexander Bothe</Copyright>
+      <Url>http://mono-d.alexanderbothe.com</Url>
+      <Description>D Language Binding</Description>
+      <Category>Language bindings</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">643282</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/VisualStudio.Mac.VisualStudio.Mac-0.3.1_cba29cf331cb5b3cb080e069a4173999.mpack</Url>
+    <Addin>
+      <Id>VisualStudio.Mac</Id>
+      <Namespace>VisualStudio.Mac</Namespace>
+      <Name>HotReloading</Name>
+      <Version>0.3.1</Version>
+      <BaseVersion />
+      <Author>Pranshu Aggarwal</Author>
+      <Copyright />
+      <Url />
+      <Description>.Net HotReloading tool</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">7869362</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.VersionControl.Mercurial-1.0_709238f6b2bcc580337fb959d856c90c.mpack</Url>
+    <Addin>
+      <Id>VersionControl.Mercurial</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Mercurial support</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Svetoslav Karasev</Author>
+      <Copyright>(c) 2015 Karasev Svetoslav</Copyright>
+      <Url>https://github.com/svedm/monodevelop-hg-addin</Url>
+      <Description>Mercurial support for the Version Control Add-in</Description>
+      <Category>Version Control</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>VersionControl</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.VersionControl</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">32544</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Unitay.Mimetypes-1.0_ca729d744f2ca4e29017ed9822115f94.mpack</Url>
+    <Addin>
+      <Id>Unitay.Mimetypes</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Unity Mimetypes</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Julian Adams</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://www.monodevelop.com</Url>
+      <Description>Adds CG/HLSL mimetype to .shader and .cginc files to enable syntax coloring</Description>
+      <Category>Source Editor Extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1813</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/DavesAddin.DavesAddin-1.3_dce21e404584fee0a70ac20c6064f34e.mpack</Url>
+    <Addin>
+      <Id>DavesAddin</Id>
+      <Namespace>DavesAddin</Namespace>
+      <Name>Daves Addins</Name>
+      <Version>1.3</Version>
+      <BaseVersion />
+      <Author>Dave Humphreys</Author>
+      <Copyright>Dave Humphreys</Copyright>
+      <Url>https://github.com/newky2k/daves-monodevelop-addins</Url>
+      <Description>Daves Addin.  Extensions for MonoDevelop/Xamarin Studio to improve productivity. Edit/Folding/Collapse to Definitions to collapse the source code(Ctrl-M-O). Solution &gt; Update Versions to Update Soltuion, Project, AssemblyInfo, Android, iOS and Mac Application versions numbers in one go</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.SourceEditor2</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.DesignerSupport</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">21615</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/RedthAddin.RedthAddin-1.0.9_4e64be0eb9a6a7bb32a6798679e9f100.mpack</Url>
+    <Addin>
+      <Id>RedthAddin</Id>
+      <Namespace>RedthAddin</Namespace>
+      <Name>Redth's Addins</Name>
+      <Version>1.0.9</Version>
+      <BaseVersion />
+      <Author>Jon Dick</Author>
+      <Copyright>Jon Dick</Copyright>
+      <Url>http://redth.codes</Url>
+      <Description>Redth's Addins.  Extensions for MonoDevelop/Xamarin Studio to improve productivity.  Nuke Bin/Obj folders quickly deletes your project's Intermediate Output path and Build output paths (especially useful for Android development)</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">269798</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.AddinMaker-1.4.3_f74340494fcff886424ca3600b147302.mpack</Url>
+    <Addin>
+      <Id>AddinMaker</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>AddinMaker</Name>
+      <Version>1.4.3</Version>
+      <BaseVersion />
+      <Author>Mikayla Hutchinson</Author>
+      <Copyright />
+      <Url>http://github.com/mhutch/MonoDevelop.AddinMaker</Url>
+      <Description>Makes it easy to create and edit IDE extensions</Description>
+      <Category>Extension Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">43709</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/QuickJump.QuickJump-1.0.0.3_0af2351f261dda8f5ae20c3471b5d2d4.mpack</Url>
+    <Addin>
+      <Id>QuickJump</Id>
+      <Namespace>QuickJump</Namespace>
+      <Name>QuickJump</Name>
+      <Version>1.0.0.3</Version>
+      <BaseVersion />
+      <Author>jason</Author>
+      <Copyright>(c) Jason Imison</Copyright>
+      <Url>https://github.com/nosami/QuickJump</Url>
+      <Description>An EasyMotion clone for Xamarin Studio. Quickly jump anywhere on any open document.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">11788</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.MSBuildEditor.MonoDevelop.MSBuildEditor-2.1.0_ed6b6e27a93c637b6026886aec4ec559.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.MSBuildEditor</Id>
+      <Namespace>MonoDevelop.MSBuildEditor</Namespace>
+      <Name>MSBuild Editor</Name>
+      <Version>2.1.0</Version>
+      <BaseVersion />
+      <Author>Mikayla Hutchinson</Author>
+      <Copyright />
+      <Url />
+      <Description>Editing support for MSBuild files</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1169345</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.MonoGame-3.6.0.586_56e6a6263282c7819a5dd1e6ada67149.mpack</Url>
+    <Addin>
+      <Id>MonoGame</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>MonoGame Addin</Name>
+      <Version>3.6.0.586</Version>
+      <BaseVersion />
+      <Author>Dean Ellis</Author>
+      <Copyright>MSPL</Copyright>
+      <Url>http://www.monogame.net/</Url>
+      <Description>MonoGame Addin for MonoDevelop</Description>
+      <Category>Game Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">15620204</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Xwt-1.1.2_bd59990d4e8b0426d4eceb501f233d95.mpack</Url>
+    <Addin>
+      <Id>Xwt</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Xwt Project Support</Name>
+      <Version>1.1.2</Version>
+      <BaseVersion />
+      <Author>Vsevolod Kukol</Author>
+      <Copyright>Vsevolod Kukol</Copyright>
+      <Url>https://github.com/sevoku/MonoDevelop.Xwt.git</Url>
+      <Description>Adds Xwt cross-platform UI project and file templates, including executable projects for supported Xwt backends and automatic platform detection.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Debugger</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.VersionControl.Git</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.VersionControl</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.9</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">675815</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/Olo.BuildTools.Other-2.0_79288c96ad4e33b831b00c5e92ddc16c.mpack</Url>
+    <Addin>
+      <Id>Other</Id>
+      <Namespace>Olo.BuildTools</Namespace>
+      <Name>Olo.BuildTools</Name>
+      <Version>2.0</Version>
+      <BaseVersion />
+      <Author>Olo</Author>
+      <Copyright>2016 Olo</Copyright>
+      <Url>http://github.com/ololabs/xs-addins</Url>
+      <Description>Some tools used as part of the build process at Olo</Description>
+      <Category />
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2774</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/XAMLator.Client.MonoDevelop.XAMLator-1.0.5_32191efa9c37bee7854faf31873cd943.mpack</Url>
+    <Addin>
+      <Id>XAMLator</Id>
+      <Namespace>XAMLator.Client.MonoDevelop</Namespace>
+      <Name>XAMLator</Name>
+      <Version>1.0.5</Version>
+      <BaseVersion />
+      <Author>Andoni Morales Fluendo S.A.</Author>
+      <Copyright />
+      <Url />
+      <Description>Live previewer for Xamarin.Forms</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1114958</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Tizen.MonoDevelop.Tizen-1.0.1_94fe2aa77712e9a999afd9690fd33a12.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Tizen</Id>
+      <Namespace>MonoDevelop.Tizen</Namespace>
+      <Name>Tizen development</Name>
+      <Version>1.0.1</Version>
+      <BaseVersion />
+      <Author>Kitsilano Software Inc., Kitsilano Software Inc.</Author>
+      <Copyright>Copyright (c) 2014 Kitsilano Software Inc.</Copyright>
+      <Url />
+      <Description>Support for developing and deploying LGPLv2-compliant applications using Mono for Tizen. If your application is not LGPLv2-compliant then you will need to purchase a commercial license from Xamarin. See http://xamarin.com/licensing.</Description>
+      <Category>Mobile Development</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">43538</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Debugger.DotNetCore-7.8.2_5fbae1560afd8eb9621fa21b8a562056.mpack</Url>
+    <Addin>
+      <Id>Debugger.DotNetCore</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>.NET Core support for Mono.Debugging</Name>
+      <Version>7.8.2</Version>
+      <BaseVersion />
+      <Author>Lex Li</Author>
+      <Copyright />
+      <Url />
+      <Description>Managed Debugging Engine support for .NET Core.</Description>
+      <Category>Debugging</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">521777</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/MonoDevelop.Dumb.MonoDevelop.Dumb-0.6.99_389028f5101d4365a9af2fc5f3508ace.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Dumb</Id>
+      <Namespace>MonoDevelop.Dumb</Namespace>
+      <Name>Dumb addin</Name>
+      <Version>0.6.99</Version>
+      <BaseVersion />
+      <Author>Sergey Khabibullin/Lex Li/Zheng Wang</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url />
+      <Description>Dumb addin for MonoDevelop / Xamarin Studio IDE.</Description>
+      <Category>Testing</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">457421</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>https://addins.monodevelop.com/mpacks/EditorConfig.Addin.EditorConfig-1.2_318b33080ff855882ceaead59c452820.mpack</Url>
+    <Addin>
+      <Id>EditorConfig</Id>
+      <Namespace>EditorConfig.Addin</Namespace>
+      <Name>EditorConfig</Name>
+      <Version>1.2</Version>
+      <BaseVersion />
+      <Author>Michael Schweitzer</Author>
+      <Copyright />
+      <Url />
+      <Description>Author: Michael Schweitzer
+
+Adds support for EditorConfig http://editorconfig.org
+
+Supported features:
+
+indent_style
+indent_size
+tab_width
+end_of_line
+charset
+trim_trailing_whitespace
+insert_final_newline
+
+These change editor settings on file open:
+
+indent_style
+indent_size
+tab_width
+end_of_line
+
+These modify files on save:
+
+charset
+trim_trailing_whitespace
+insert_final_newline
+end_of_line (can enable via an option)
+
+Implementation generally follows this post: https://github.com/editorconfig/editorconfig/issues/248#issuecomment-166980703</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">25416</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>

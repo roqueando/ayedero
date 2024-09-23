@@ -1,0 +1,6 @@
+2024/09/23-12:34:41.245 322185 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_alpha2phi.medium.com_0.indexeddb.leveldb since it was missing.
+2024/09/23-12:34:41.249 322185 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_alpha2phi.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/23-12:34:50.177 322186 Level-0 table #5: started
+2024/09/23-12:34:50.178 322186 Level-0 table #5: 14547 bytes OK
+2024/09/23-12:34:50.180 322186 Delete type=0 #3
+2024/09/23-12:34:50.180 322186 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
