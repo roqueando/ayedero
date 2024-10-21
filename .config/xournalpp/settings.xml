@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Dracula"/>
-  <property name="lastSavePath" value="/home/omolu/ayaworan"/>
+  <property name="lastSavePath" value="/home/osogyian/Documents/notes"/>
   <property name="lastOpenPath" value="/home/omolu/ayaworan"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
@@ -196,6 +196,10 @@
       <attribute name="deviceSource" type="int" value="1"/>
     </data>
     <data name="Wayland Pointer">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="YICHIP Wireless Device Mouse">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>

@@ -1,6 +1,0 @@
-2024/09/11-18:16:12.985 16ad Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.bossabox.com_0.indexeddb.leveldb since it was missing.
-2024/09/11-18:16:12.989 16ad Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.bossabox.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/11-18:16:49.424 16ad Level-0 table #5: started
-2024/09/11-18:16:49.429 16ad Level-0 table #5: 46261 bytes OK
-2024/09/11-18:16:49.431 16ad Delete type=0 #3
-2024/09/11-18:16:49.431 16ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)

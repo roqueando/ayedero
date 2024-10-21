@@ -43,7 +43,7 @@ default_floating_border pixel 4
 #
 output * {
   # scale 1.25
-  bg ~/.config/wallpaper.png fill
+  bg /usr/share/backgrounds/kali/yellow-kali-contours-16x9.png fill
 }
 
 #smart_borders on
@@ -235,7 +235,7 @@ client.urgent           $red $red $accent $red $red
 #
 xwayland enable
 
-exec /usr/bin/keyboard.sh
+#exec /usr/bin/keyboard.sh
 
 #
 # Status Bar:

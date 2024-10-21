@@ -1,6 +1,0 @@
-2024/09/19-20:17:27.786 2580 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ayaworan.slack.com_0.indexeddb.leveldb since it was missing.
-2024/09/19-20:17:27.789 2580 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ayaworan.slack.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/19-20:18:22.453 2580 Level-0 table #5: started
-2024/09/19-20:18:22.455 2580 Level-0 table #5: 1125 bytes OK
-2024/09/19-20:18:22.456 2580 Delete type=0 #3
-2024/09/19-20:18:22.456 2580 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

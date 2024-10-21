@@ -1,6 +1,0 @@
-2024/09/01-15:45:57.981 4efb Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_br.linkedin.com_0.indexeddb.leveldb since it was missing.
-2024/09/01-15:45:57.984 4efb Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_br.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/01-15:46:00.006 4efb Level-0 table #5: started
-2024/09/01-15:46:00.009 4efb Level-0 table #5: 1050 bytes OK
-2024/09/01-15:46:00.011 4efb Delete type=0 #3
-2024/09/01-15:46:00.012 4efb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

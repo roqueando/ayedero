@@ -1,0 +1,4 @@
+2024/10/18-21:06:17.723 406ab Reusing MANIFEST /home/osogyian/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/18-21:06:17.723 406ab Recovering log #12
+2024/10/18-21:06:17.724 406ab Reusing old log /home/osogyian/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000012.log 
+2024/10/18-21:06:17.724 406ab Delete type=2 #11

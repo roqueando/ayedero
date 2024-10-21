@@ -1,6 +1,0 @@
-2024/09/21-12:32:26.625 31b6d Reusing MANIFEST /home/omolu/.config/LocalStackDesktop/Local Storage/leveldb/MANIFEST-000001
-2024/09/21-12:32:26.625 31b6d Recovering log #3
-2024/09/21-12:32:26.625 31b6d Reusing old log /home/omolu/.config/LocalStackDesktop/Local Storage/leveldb/000003.log 
-2024/09/21-14:48:39.503 48a9d Level-0 table #5: started
-2024/09/21-14:48:39.508 48a9d Level-0 table #5: 9418 bytes OK
-2024/09/21-14:48:39.510 48a9d Delete type=0 #3

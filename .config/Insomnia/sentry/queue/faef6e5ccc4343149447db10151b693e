@@ -1,3 +1,0 @@
-{"sent_at":"2024-09-17T02:47:10.857Z","sdk":{"name":"sentry.javascript.electron","version":"5.1.0"}}
-{"type":"session"}
-{"sid":"317ee88b1f6a4ee58f7b80df36070a48","init":true,"started":"2024-09-17T02:47:10.857Z","timestamp":"2024-09-17T02:47:10.857Z","status":"abnormal","errors":1,"duration":0.000028848648071289062,"attrs":{"release":"10.0.0","environment":"production"}}

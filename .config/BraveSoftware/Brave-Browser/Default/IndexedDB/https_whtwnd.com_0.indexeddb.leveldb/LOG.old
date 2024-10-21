@@ -1,6 +1,0 @@
-2024/09/05-19:33:10.426 9b5 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_whtwnd.com_0.indexeddb.leveldb since it was missing.
-2024/09/05-19:33:10.429 9b5 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_whtwnd.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/05-19:33:13.787 9b5 Level-0 table #5: started
-2024/09/05-19:33:13.789 9b5 Level-0 table #5: 1037 bytes OK
-2024/09/05-19:33:13.792 9b5 Delete type=0 #3
-2024/09/05-19:33:13.793 9b5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

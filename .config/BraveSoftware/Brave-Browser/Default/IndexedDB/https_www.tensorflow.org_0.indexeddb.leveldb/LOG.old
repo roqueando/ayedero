@@ -1,6 +1,0 @@
-2024/09/08-15:46:47.977 7a8db Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb since it was missing.
-2024/09/08-15:46:47.983 7a8db Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/08-15:47:22.622 7a8dc Level-0 table #5: started
-2024/09/08-15:47:22.624 7a8dc Level-0 table #5: 1260 bytes OK
-2024/09/08-15:47:22.626 7a8dc Delete type=0 #3
-2024/09/08-15:47:22.626 7a8dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

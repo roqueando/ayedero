@@ -1,6 +1,0 @@
-2024/09/05-18:41:29.291 9b5 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_criticalrole.fandom.com_0.indexeddb.leveldb since it was missing.
-2024/09/05-18:41:29.294 9b5 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_criticalrole.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/05-18:43:30.637 9b6 Level-0 table #5: started
-2024/09/05-18:43:30.639 9b6 Level-0 table #5: 24543 bytes OK
-2024/09/05-18:43:30.642 9b6 Delete type=0 #3
-2024/09/05-18:43:30.642 9b6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

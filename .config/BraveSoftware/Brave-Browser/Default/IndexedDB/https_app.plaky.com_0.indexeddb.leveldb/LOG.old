@@ -1,6 +1,0 @@
-2024/09/18-12:19:32.600 ec1 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.plaky.com_0.indexeddb.leveldb since it was missing.
-2024/09/18-12:19:32.605 ec1 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.plaky.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/18-12:19:32.667 ece Level-0 table #5: started
-2024/09/18-12:19:32.670 ece Level-0 table #5: 670 bytes OK
-2024/09/18-12:19:32.673 ece Delete type=0 #3
-2024/09/18-12:19:32.673 ec0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

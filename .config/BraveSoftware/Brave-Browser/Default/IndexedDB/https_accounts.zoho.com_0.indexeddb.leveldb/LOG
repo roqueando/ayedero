@@ -1,6 +1,0 @@
-2024/09/16-00:12:23.423 10f7 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_accounts.zoho.com_0.indexeddb.leveldb since it was missing.
-2024/09/16-00:12:23.426 10f7 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_accounts.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/16-00:12:23.435 10f7 Level-0 table #5: started
-2024/09/16-00:12:23.436 10f7 Level-0 table #5: 1971 bytes OK
-2024/09/16-00:12:23.437 10f7 Delete type=0 #3
-2024/09/16-00:12:23.438 10f7 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

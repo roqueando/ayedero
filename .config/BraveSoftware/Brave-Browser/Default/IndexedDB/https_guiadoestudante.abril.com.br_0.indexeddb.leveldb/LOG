@@ -1,6 +1,0 @@
-2024/09/01-21:31:40.618 9b4 Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_guiadoestudante.abril.com.br_0.indexeddb.leveldb since it was missing.
-2024/09/01-21:31:40.621 9b4 Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_guiadoestudante.abril.com.br_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/01-21:42:06.148 9b5 Level-0 table #5: started
-2024/09/01-21:42:06.150 9b5 Level-0 table #5: 1145 bytes OK
-2024/09/01-21:42:06.152 9b5 Delete type=0 #3
-2024/09/01-21:42:06.153 9b5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

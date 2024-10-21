@@ -1,0 +1,25 @@
+00:00:00.496927 VirtualBox GUI VM Selector Window 7.0.20_Debian r163906 linux.amd64 (Jul 16 2024 15:48:29) release log
+00:00:00.496930 Log opened 2024-10-21T00:52:08.094682000Z
+00:00:00.496930 Build Type: release
+00:00:00.496937 OS Product: Linux
+00:00:00.496938 OS Release: 6.10.11-amd64
+00:00:00.496939 OS Version: #1 SMP PREEMPT_DYNAMIC Kali 6.10.11-1kali1 (2024-09-26)
+00:00:00.496976 DMI Product Name: 82UL
+00:00:00.496984 DMI Product Version: Lenovo V14 G3 IAP
+00:00:00.496994 Firmware type: UEFI
+00:00:00.498936 Secure Boot: Disabled
+00:00:00.499015 Host RAM: 15723MB (15.3GB) total, 10742MB (10.4GB) available
+00:00:00.499021 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.499022 Process ID: 32223
+00:00:00.499023 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.499070 Qt version: 5.15.13
+00:00:00.499839 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.549805 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.891686 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 20x43 x 927x1009
+00:00:00.905150 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.021387 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:27.320383 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.011001 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:37.374545 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:57:22.691194 GUI: UICommon: Handling aboutToQuit request..
+00:57:23.557015 GUI: UICommon: aboutToQuit request handled!

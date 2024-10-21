@@ -1,6 +1,0 @@
-2024/09/02-16:47:30.836 9cb Creating DB /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mangaatrend.net_0.indexeddb.leveldb since it was missing.
-2024/09/02-16:47:30.839 9cb Reusing MANIFEST /home/omolu/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mangaatrend.net_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/02-16:48:56.506 9b6 Level-0 table #5: started
-2024/09/02-16:48:56.508 9b6 Level-0 table #5: 1496 bytes OK
-2024/09/02-16:48:56.510 9b6 Delete type=0 #3
-2024/09/02-16:48:56.511 9b6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
