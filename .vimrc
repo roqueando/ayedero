@@ -10,11 +10,9 @@ Plug 'morhetz/gruvbox' " gruvbox -> ALWAYS
 Plug 'ellisonleao/gruvbox.nvim' " gruvbox -> for neovim
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Mofiqul/vscode.nvim'
 Plug 'martinsione/darkplus.nvim'
 Plug 'dracula/vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'pasky/claude.vim'
 call plug#end()
 
@@ -44,7 +42,7 @@ set expandtab
 set omnifunc=syntaxcomplete#Complete
 set mouse=c
 
-colorscheme dracula
+colorscheme gruvbox
 
 let mapleader = ";"
 
@@ -85,7 +83,7 @@ let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>S :Rg<CR>
 ""================================================== 
-let g:airline_theme='bubblegum'
+let g:airline_theme='gruvbox'
 let g:python3_host_prog = '/home/omolu/miniconda3/bin/python'
 
 "" Magma
