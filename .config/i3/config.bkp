@@ -186,15 +186,15 @@ assign [class="gnome-terminal"] $w1
 for_window [class="^.*"] border pixel 4
 gaps inner 10
 gaps outer 10
-exec feh --bg-fill /usr/share/backgrounds/kali/yellow-kali-contours-16x9.png
-#exec --no-startup-id /usr/bin/keyboard.sh 
+exec feh --bg-fill ~/.config/minimal.png
+exec --no-startup-id /usr/bin/keyboard.sh 
 
 bar {
   status_command i3status
   font pango:DejaVu Sans Mono 10
   position top
   colors {
-    background #000000
+    background #181921
     statusline #F8F8F2
     separator  #44475A
 
@@ -216,7 +216,6 @@ bar {
 
 bindsym $mod+Shift+u exec light -U 5
 bindsym $mod+Shift+i exec light -A 5
-bindsym $mod+Shift+x exec betterlockscreen -l blur
 
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master -q 5%+"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master -q 5%-"
