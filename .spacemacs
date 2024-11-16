@@ -33,12 +33,16 @@ This function should only modify configuration layer settings."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     (typescript :variables
+                 typescript-backend 'tide)
      python
      javascript
      csv
      rust
      go
-     c-c++
+     (c-c++ :variables
+            c-c++-backend 'lsp-clangd)
+     cmake
      ipython-notebook
      sql
      yaml
@@ -47,18 +51,28 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      helm
-     lsp
+     (lsp :variables
+          lsp-headerline-breadcrumb-enable nil
+          lsp-ui-sideline-enable nil)
      markdown
      multiple-cursors
      org
+     (haskell :variables
+              haskell-completion-backend 'dante)
+     fsharp
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom
-            shell-default-shell 'vterm)
+            shell-enable-smart-eshell t
+            shell-default-shell 'multi-vterm)
      ;; spell-checking
      ;; syntax-checking
      version-control
-     (treemacs :variables treemacs-position 'right))
+     (tree-sitter :variables
+                  tree-sitter-syntax-highlight-enable t
+                  tree-sitter-fold-enable t
+                  tree-sitter-fold-indicators-enable nil)
+     (neotree :variables neo-window-position 'right))
 
 
    ;; List of additional packages that will be installed without being wrapped
@@ -579,6 +593,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
 This function is called only while dumping Spacemacs configuration. You can
 `require' or `load' the libraries of your choice that will be included in the
 dump."
+  (load-library ob-haskell)
+  (load-library ob-python)
   )
 
 
@@ -592,6 +608,22 @@ before packages are loaded."
   (spacemacs/set-leader-keys "w" 'save-buffer)
 
   (setq org-startup-with-inline-images t)
+  (remove-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+  (spacemacs/toggle-highlight-current-line-globally-off)
+
+  (setq org-babel-python-command "python3")
+
+  (let ((my-ghcup-path (expand-file-name "~/.ghcup/bin")))
+    (setenv "PATH" (concat my-ghcup-path ":" (getenv "PATH")))
+    (add-to-list 'exec-path my-ghcup-path))
+
+  (setq org-indent-mode t)
+
+  (with-eval-after-load 'org
+    (org-babel-do-load-languages 'org-babel-load-languages
+                                 '((haskell . t)
+                                   (python . t))))
+
   )
 
 

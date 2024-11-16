@@ -1,11 +1,12 @@
-theme = "gruvbox"
+theme = "dracula"
 
 [editor]
+auto-format = true
 line-number = "relative"
 mouse = false
-bufferline = "multiple"
+#bufferline = "multiple"
 color-modes = true
-auto-completion = false
+#auto-completion = false
 
 [editor.lsp]
 enable = true
@@ -35,8 +36,9 @@ K = "hover"
 [keys.normal.";"]
 f = "file_picker"
 w = ":w"
-q = ":bc"
-e = ":sh zellij run -f -x 10% -y 10% --width 80% --height 80% -- bash ~/ayedero/scripts/yazi-picker.sh"
+q = ":q"
+#e = ":sh zellij run -f -x 10% -y 10% --width 80% --height 80% -- bash ~/ayedero/scripts/yazi-picker.sh"
+#e = [":suspend"]
 
 [editor.statusline]
 mode.normal = "NORMAL"

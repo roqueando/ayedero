@@ -18,3 +18,6 @@ ln -s $HOME/ayedero/.vimrc $HOME/.vimrc
 ln -s $HOME/ayedero/.vimrc $HOME/.config/nvim/init.vim
 
 echo "VIM [OK]"
+
+echo "Installing Kitty [...]"
+ln -s $HOME/ayedero/kitty.conf $HOME/.config/kitty/kitty.conf

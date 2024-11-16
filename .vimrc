@@ -1,19 +1,22 @@
 set nocompatible
 call plug#begin()
-Plug 'sheerun/vim-polyglot' " just to get syntax highlight easy
+Plug 'sheerun/vim-polyglot' " just to get syntax highlight easy (for VIM)
 Plug 'tpope/vim-endwise' " when using ruby or elixir for closing def
 Plug 'jiangmiao/auto-pairs' " just to close brackets without efforts
 Plug 'airblade/vim-gitgutter' " just to I know where I fucked up earlier
+
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim' " for search things
-Plug 'morhetz/gruvbox' " gruvbox -> ALWAYS
-Plug 'ellisonleao/gruvbox.nvim' " gruvbox -> for neovim
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'Mofiqul/vscode.nvim'
-Plug 'martinsione/darkplus.nvim'
+
 Plug 'dracula/vim'
-Plug 'pasky/claude.vim'
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" for using godocs
+Plug "fatih/vim-go"
 call plug#end()
 
 filetype plugin indent on
@@ -83,17 +86,7 @@ let g:fzf_vim.preview_window = ['right,50%', 'ctrl-/']
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>S :Rg<CR>
 ""================================================== 
-let g:airline_theme='gruvbox'
-let g:python3_host_prog = '/home/omolu/miniconda3/bin/python'
+let g:airline_theme='dracula'
 
-"" Magma
-nnoremap <silent><expr> <LocalLeader>r  :MagmaEvaluateOperator<CR>
-nnoremap <silent>       <LocalLeader>rr :MagmaEvaluateLine<CR>
-xnoremap <silent>       <LocalLeader>r  :<C-u>MagmaEvaluateVisual<CR>
-nnoremap <silent>       <LocalLeader>rc :MagmaReevaluateCell<CR>
-nnoremap <silent>       <LocalLeader>rd :MagmaDelete<CR>
-nnoremap <silent>       <LocalLeader>ro :MagmaShowOutput<CR>
-
-let g:magma_automatically_open_output = v:false
-let g:magma_image_provider = "ueberzug"
-
+" treesitter
+lua require'nvim-treesitter.configs'.setup{highlight={enable=true}}  " At the bottom of your init.vim, keep all configs on one line
