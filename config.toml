@@ -1,4 +1,4 @@
-theme = "dracula"
+theme = "dark_plus"
 
 [editor]
 auto-format = true
