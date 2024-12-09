@@ -50,21 +50,24 @@ This function should only modify configuration layer settings."
      terraform
      emacs-lisp
      git
-     helm
+     ;; helm
+     ivy
      (lsp :variables
           lsp-headerline-breadcrumb-enable nil
-          lsp-ui-sideline-enable nil)
+          lsp-ui-sideline-enable nil
+          lsp-ui-doc-enable t
+          lsp-ui-doc-frame-mode t)
      markdown
      multiple-cursors
      org
      (haskell :variables
-              haskell-completion-backend 'dante)
+              haskell-completion-backend 'lsp)
      fsharp
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom
             shell-enable-smart-eshell t
-            shell-default-shell 'multi-vterm)
+            shell-default-shell 'vterm)
      ;; spell-checking
      ;; syntax-checking
      version-control
@@ -83,7 +86,7 @@ This function should only modify configuration layer settings."
    ;; `dotspacemacs/user-config'. To use a local version of a package, use the
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(ivy-posframe)
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -256,7 +259,8 @@ It should only modify the values of Spacemacs settings."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(gruvbox-dark-medium
+   dotspacemacs-themes '(gruvbox-light-medium
+                         gruvbox-dark-medium
                          spacemacs-dark
                          spacemacs-light)
 
@@ -613,10 +617,6 @@ before packages are loaded."
 
   (setq org-babel-python-command "python3")
 
-  (let ((my-ghcup-path (expand-file-name "~/.ghcup/bin")))
-    (setenv "PATH" (concat my-ghcup-path ":" (getenv "PATH")))
-    (add-to-list 'exec-path my-ghcup-path))
-
   (setq org-indent-mode t)
 
   (with-eval-after-load 'org
@@ -624,8 +624,10 @@ before packages are loaded."
                                  '((haskell . t)
                                    (python . t))))
 
-  )
 
+  (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display)))
+  (ivy-posframe-mode 1)
+  )
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.

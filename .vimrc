@@ -15,13 +15,17 @@ Plug 'junegunn/fzf.vim'
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Gutentags
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 filetype plugin indent on
 syntax enable
 
 " Sets
-set tags=.tags
+set tag=.tags
+set tag+=$HOME/.tags
 set clipboard=unnamedplus
 set background=light
 set relativenumber
@@ -80,3 +84,7 @@ nnoremap <silent><leader>S :Rg<CR>
 
 "" airline settings
 let g:airline_theme='raven'
+
+let g:gutentags_exclude_filetypes = ['gitcommit','gitconfig','gitrebase','gitsendemail','git']
+let g:gutentags_ctags_extra_args = ['--languages="c,c++,javascript,typescript,haskell,python"']
+let g:gutentags_cache_dir = '~/.tags'

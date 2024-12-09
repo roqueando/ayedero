@@ -1,4 +1,4 @@
-theme = "dark_plus"
+theme = "gruvbox_light"
 
 [editor]
 auto-format = true
