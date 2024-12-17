@@ -26,8 +26,8 @@ syntax enable
 " Sets
 set tag=.tags
 set tag+=$HOME/.tags
-set clipboard=unnamedplus
-set background=light
+set clipboard+=unnamedplus
+set background=dark
 set relativenumber
 set number
 set showmatch
@@ -83,7 +83,7 @@ nnoremap <silent><leader>S :Rg<CR>
 ""==================================================
 
 "" airline settings
-let g:airline_theme='raven'
+let g:airline_theme='silver'
 
 let g:gutentags_exclude_filetypes = ['gitcommit','gitconfig','gitrebase','gitsendemail','git']
 let g:gutentags_ctags_extra_args = ['--languages="c,c++,javascript,typescript,haskell,python"']
