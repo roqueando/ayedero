@@ -27,7 +27,7 @@ syntax enable
 set tag=.tags
 set tag+=$HOME/.tags
 set clipboard+=unnamedplus
-set background=dark
+set background=light
 set relativenumber
 set number
 set showmatch
