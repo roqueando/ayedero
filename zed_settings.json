@@ -1,0 +1,50 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "ui_font_family": "Ubuntu Mono",
+  "buffer_font_family": "CodeNewRoman Nerd Font",
+  "ui_font_size": 16,
+  "buffer_font_size": 17,
+  "theme": {
+    "mode": "system",
+    "light": "NeoSolarized Light",
+    "dark": "Gruvbox Material"
+  },
+  "border_size": 1,
+  "current_line_highlight": "none",
+  "cursor_shape": "block",
+  "scrollbar": {
+    "width": 8,
+    "border_size": 1,
+    "border_color": "#333333",
+    "background_color": "#222222",
+    "thumb_color": "#444444",
+    "thumb_hover_color": "#555555",
+    "thumb_pressed_color": "#666666"
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true
+  },
+  "project_panel": {
+    "dock": "right"
+  }
+}

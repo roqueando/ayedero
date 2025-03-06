@@ -88,3 +88,4 @@ let g:airline_theme="distinguished"
 let g:gutentags_exclude_filetypes = ['gitcommit','gitconfig','gitrebase','gitsendemail','git']
 let g:gutentags_ctags_extra_args = ['--languages="c,c++,javascript,typescript,haskell,python"']
 let g:gutentags_cache_dir = '~/.tags'
+hi Normal guibg=NONE ctermbg=NONE
