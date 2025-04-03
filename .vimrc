@@ -18,6 +18,14 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Gutentags
 Plug 'ludovicchabant/vim-gutentags'
+
+" Copilot
+Plug 'github/copilot.vim'
+
+" Ionide for F#
+Plug 'ionide/Ionide-vim'
+Plug 'slint-ui/vim-slint'
+Plug 'sukima/xmledit'
 call plug#end()
 
 filetype plugin indent on
@@ -26,7 +34,7 @@ syntax enable
 " Sets
 set tag=.tags
 set tag+=$HOME/.tags
-set clipboard+=unnamedplus
+set clipboard^=unnamed
 set background=light
 set relativenumber
 set number
@@ -72,6 +80,8 @@ augroup QuickfixMappings
     "" fecha o quickfix
     autocmd FileType qf nnoremap <buffer> <silent> <leader>q :cclose<CR>
 augroup END
+au BufReadPost *.xrc set syntax=xml
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags noci
 ""==================================================
 
 
