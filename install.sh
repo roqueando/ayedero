@@ -1,6 +1,10 @@
 #!/bin/sh
 
 echo "[AYEDERO] config"
+echo "Installing Emacs [...]"
+ln -s ~/ayedero/.emacs ~/.emacs
+
+echo "Emacs [OK]"
 echo "Installing Helix [...]"
 
 ln -s ~/ayedero/config.toml ~/.config/helix/config.toml
