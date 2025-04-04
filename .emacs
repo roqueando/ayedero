@@ -8,12 +8,15 @@
                 gruvbox-theme
                 projectile
                 evil-escape
+		vertico
+		vterm
+		org
 		; lang modes
-		lsp-mode
-                haskell-mode
-                rust-mode
-                cc-mode
-                python-mode
+		go-mode ;; Golang
+                haskell-mode ;; Haskell
+                rust-mode ;; Rust
+                cc-mode ;; C/C++ 
+                python-mode ;; Python
                 ))
   (unless (package-installed-p pkg)
     (package-refresh-contents)
@@ -73,33 +76,35 @@
 ;;(eval-after-load "haskell-cabal"
  ;   '(define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-compile))
 
-;; Eletric Pair
-(defun electric-pair ()
-  "If at end of line, insert character pair without surrounding spaces.
-   Otherwise, just insert the typed character."
+
+(define-key my-semicolon-map (kbd "g") 'run-ghcid)
+
+(setq projectile-completion-system 'ido)
+(ido-mode 1)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+
+;; Packages
+(use-package vterm
+    :ensure t)
+
+;; My Functions
+(defun open-vterm-in-project ()
+  "Open a buffer with vterm in directory of project with a window at his side"
   (interactive)
-  (if (eolp) (let (parens-require-spaces) (insert-pair)) 
-    (self-insert-command 1)))
+  (let ((default-directory (projectile-project-root)))
+    (split-window-bottom)
+    (other-window 1)
+    (vterm)))
 
+(define-key my-semicolon-map (kbd "t") 'open-vterm-in-project)
 
-; LSP mode
-(require 'lsp-mode)
-(add-hook 'haskell-mode-hook #'lsp)
-
-;; python eletric pair
-(add-hook 'python-mode-hook
-          (lambda ()
-            (define-key python-mode-map "\"" 'electric-pair)
-            (define-key python-mode-map "\'" 'electric-pair)
-            (define-key python-mode-map "(" 'electric-pair)
-            (define-key python-mode-map "[" 'electric-pair)
-            (define-key python-mode-map "{" 'electric-pair)))
-
-;; haskell
-(add-hook 'haskell-mode-hook
-          (lambda ()
-            (define-key haskell-mode-map "\"" 'electric-pair)
-            (define-key haskell-mode-map "\'" 'electric-pair)
-            (define-key haskell-mode-map "(" 'electric-pair)
-            (define-key haskell-mode-map "[" 'electric-pair)
-            (define-key haskell-mode-map "{" 'electric-pair)))
+;; ghcid buffer
+(defun run-ghcid ()
+  "Executa ghcid em um buffer separado."
+  (interactive)
+  (let ((buffer (get-buffer-create "*ghcid*")))
+    (split-window-right)
+    (other-window 1)
+    (switch-to-buffer buffer)
+    (start-process "ghcid" buffer "nix-shell" "&&" "ghcid" "--command" "cabal repl")))
