@@ -5,12 +5,15 @@
                          ("elpa" . "https://elpa.gnu.org/packages/")))
 (package-initialize)
 (dolist (pkg '(evil
+                evil-collection
                 gruvbox-theme
                 projectile
                 evil-escape
 		vertico
 		vterm
 		org
+		company
+		magit
 		; lang modes
 		go-mode ;; Golang
                 haskell-mode ;; Haskell
@@ -24,6 +27,7 @@
   )
 
 ;; UI settings
+(electric-pair-mode 1)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
@@ -77,8 +81,6 @@
  ;   '(define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-compile))
 
 
-(define-key my-semicolon-map (kbd "g") 'run-ghcid)
-
 (setq projectile-completion-system 'ido)
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
@@ -98,13 +100,9 @@
     (vterm)))
 
 (define-key my-semicolon-map (kbd "t") 'open-vterm-in-project)
+(define-key my-semicolon-map (kbd "g") 'magit)
 
-;; ghcid buffer
-(defun run-ghcid ()
-  "Executa ghcid em um buffer separado."
-  (interactive)
-  (let ((buffer (get-buffer-create "*ghcid*")))
-    (split-window-right)
-    (other-window 1)
-    (switch-to-buffer buffer)
-    (start-process "ghcid" buffer "nix-shell" "&&" "ghcid" "--command" "cabal repl")))
+;; company mode
+(add-hook 'after-init-hook 'global-company-mode)
+
+(evil-collection-init)

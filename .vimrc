@@ -26,6 +26,8 @@ Plug 'github/copilot.vim'
 Plug 'ionide/Ionide-vim'
 Plug 'slint-ui/vim-slint'
 Plug 'sukima/xmledit'
+
+Plug 'jceb/vim-orgmode'
 call plug#end()
 
 filetype plugin indent on
