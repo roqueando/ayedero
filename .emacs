@@ -39,6 +39,7 @@
                 rust-mode ;; Rust
                 cc-mode ;; C/C++ 
                 python-mode ;; Python
+		typescript-mode
 		gtags-mode ;; GTAGS
                 ))
   (unless (package-installed-p pkg)
