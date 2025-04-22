@@ -13,6 +13,7 @@
   kept-new-versions 6
   kept-old-versions 2
   version-control t)
+(global-so-long-mode 1)
 (package-initialize)
 (dolist (pkg '(evil
                 evil-collection
@@ -22,6 +23,7 @@
                 evil-escape
 		vertico
 		vterm
+		multi-vterm
 		corfu
 		org
 		company
@@ -41,6 +43,8 @@
                 python-mode ;; Python
 		typescript-mode
 		gtags-mode ;; GTAGS
+		dts-mode ;; Device tree
+		tuareg
                 ))
   (unless (package-installed-p pkg)
     (package-refresh-contents)

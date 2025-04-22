@@ -27,7 +27,9 @@ Plug 'ionide/Ionide-vim'
 Plug 'slint-ui/vim-slint'
 Plug 'sukima/xmledit'
 
-Plug 'jceb/vim-orgmode'
+Plug 'xolox/vim-notes'
+Plug 'xolox/vim-misc'
+Plug 'jreybert/vimagit'
 call plug#end()
 
 filetype plugin indent on
@@ -101,3 +103,5 @@ let g:gutentags_exclude_filetypes = ['gitcommit','gitconfig','gitrebase','gitsen
 let g:gutentags_ctags_extra_args = ['--languages="c,c++,javascript,typescript,haskell,python"']
 let g:gutentags_cache_dir = '~/.tags'
 hi Normal guibg=NONE ctermbg=NONE
+
+nnoremap <leader>g :Magit<CR>
