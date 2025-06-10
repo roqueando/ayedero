@@ -1,4 +1,5 @@
 (setq custom-file "~/.emacs.custom.el")
+(load "~/ayedero/ghcid.el")
 (setenv "PATH" (concat (getenv "PATH") ":/opt/homebrew/bin"))
 (add-to-list 'exec-path "/opt/homebrew/bin")
 (setenv "PATH" (concat (getenv "HOME") "/.ghcup/bin:" (getenv "PATH")))
@@ -17,8 +18,11 @@
 (package-initialize)
 (dolist (pkg '(evil
                 evil-collection
+		; Themes
                 gruvbox-theme
 		solarized-theme
+		; Tools
+		tabspaces
                 projectile
                 evil-escape
 		vertico
@@ -32,7 +36,10 @@
 		org-superstar
 		all-the-icons
 		ivy
+		rg
 		; lang modes
+		lsp-haskell
+		lsp-mode
 		fsharp-mode
 		yaml-mode
 		nix-mode ;; Nix
@@ -53,6 +60,19 @@
 (use-package gtags-mode
   :hook ((emacs-startup . gtags-mode)))
 (setq-default evil-want-keybinding nil)
+
+;; LSP-MODE settings
+(use-package lsp-mode
+  :init
+  :hook (
+	 (python-mode . lsp)
+	 (go-mode . lsp))
+  :config
+  (setq lsp-headerline-breadcrumb-enable nil)
+  :commands lsp)
+
+(add-hook 'haskell-mode-hook #'lsp)
+(add-hook 'haskell-literate-mode-hook #'lsp)
 
 ;; UI settings
 (electric-pair-mode 1)
@@ -86,6 +106,7 @@
 (define-key my-semicolon-map (kbd "e") 'projectile-dired)
 (define-key my-semicolon-map (kbd "p") 'projectile-switch-project)
 (define-key my-semicolon-map (kbd "E") 'neotree-toggle)
+(define-key my-semicolon-map (kbd "S") 'rg-project)
 
 ;; neotree config
 
@@ -124,6 +145,37 @@
 (use-package vterm
     :ensure t)
 
+;; package: tabspaces
+(use-package tabspaces
+  :hook (after-init . tabspaces-mode)
+  :commands (tabspaces-switch-or-create-workspace
+	     tabspaces-open-or-create-project-and-workspace)
+  :custom
+  (tabspaces-use-filtered-buffers-as-default t)
+  (tabspaces-default-tab "Default")
+  (tabspaces-remove-to-default t)
+  (tabspaces-include-buffers '("*scratch*"))
+  (tabspaces-initialize-project-with-todo t)
+  (tabspaces-todo-file-name "project-todo.org")
+  ;; sessions
+  (tabspaces-session t)
+  (tabspaces-session-auto-restore t)
+  (tab-bar-new-tab-choice "*scratch*"))
+
+(defvar tabspaces-command-map
+  (let ((map (make-sparse-keymap)))
+    (define-key my-semicolon-map (kbd "C") 'tabspaces-clear-buffers)
+    (define-key my-semicolon-map (kbd "b") 'tabspaces-switch-to-buffer)
+    (define-key my-semicolon-map (kbd "d") 'tabspaces-close-workspace)
+    (define-key my-semicolon-map (kbd "k") 'tabspaces-kill-buffers-close-workspace)
+    (define-key my-semicolon-map (kbd "o") 'tabspaces-open-or-create-project-and-workspace)
+    (define-key my-semicolon-map (kbd "r") 'tabspaces-remove-current-buffer)
+    (define-key my-semicolon-map (kbd "R") 'tabspaces-remove-selected-buffer)
+    (define-key my-semicolon-map (kbd "s") 'tabspaces-switch-or-create-workspace)
+    (define-key my-semicolon-map (kbd "T") 'tabspaces-switch-buffer-and-tab)
+    map)
+  "Keymap for tabspace/workspace commands after `tabspaces-keymap-prefix'.")
+
 ;; My Functions
 (defun open-vterm-in-project ()
   "Open a buffer with vterm in directory of project with a window at his side"
@@ -135,6 +187,7 @@
 
 (define-key my-semicolon-map (kbd "t") 'open-vterm-in-project)
 (define-key my-semicolon-map (kbd "g") 'magit)
+(define-key my-semicolon-map (kbd "S") 'rg-project)
 
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
@@ -183,3 +236,8 @@
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+
+(setq-default tab-width 2)
+(setq-default indent-tabs-mode nil)
+(setq-default c-basic-offset 2)
+(setq-default go-basic-offset 2)
