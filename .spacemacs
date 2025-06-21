@@ -73,8 +73,7 @@ This function should only modify configuration layer settings."
      version-control
      (tree-sitter :variables
                   tree-sitter-syntax-highlight-enable t
-                  tree-sitter-fold-enable t
-                  tree-sitter-fold-indicators-enable nil)
+                  )
      (neotree :variables neo-window-position 'right))
 
 
@@ -86,7 +85,7 @@ This function should only modify configuration layer settings."
    ;; `dotspacemacs/user-config'. To use a local version of a package, use the
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '(ivy-posframe)
+   dotspacemacs-additional-packages '()
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -259,7 +258,8 @@ It should only modify the values of Spacemacs settings."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(gruvbox-light-medium
+   dotspacemacs-themes '(solarized-light
+                         gruvbox-light-medium
                          gruvbox-dark-medium
                          spacemacs-dark
                          spacemacs-light)
@@ -282,7 +282,7 @@ It should only modify the values of Spacemacs settings."
    ;; fixed-pitch faces. The `:size' can be specified as
    ;; a non-negative integer (pixel size), or a floating-point (point size).
    ;; Point size is recommended, because it's device independent. (default 10.0)
-   dotspacemacs-default-font '("CodeNewRoman Nerd Font"
+   dotspacemacs-default-font '("CodeNewRoman Nerd Font Mono"
                                :size 14.0
                                :weight normal
                                :width normal)
@@ -624,10 +624,72 @@ before packages are loaded."
                                  '((haskell . t)
                                    (python . t))))
 
+  (with-eval-after-load 'lsp-ui-doc
+    (define-key lsp-ui-doc-frame-mode-map (kbd "q") nil)
+                                        ;(define-key lsp-ui-doc-frame-mode-map (kbd "<escape>") #'lsp-ui-doc-unfocus-frame))
 
-  (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display)))
-  (ivy-posframe-mode 1)
+    )
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
+(defun dotspacemacs/emacs-custom-settings ()
+  "Emacs custom settings.
+This is an auto-generated function, do not modify its content directly, use
+Emacs customize menu instead.
+This function is called at the very end of Spacemacs initialization."
+  (custom-set-variables
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(package-selected-packages
+     '(ace-link aggressive-indent all-the-icons attrap auto-compile
+                auto-highlight-symbol auto-yasnippet browse-at-remote
+                centered-cursor-mode clean-aindent-mode cmake-mode cmm-mode
+                code-review column-enforce-mode company-c-headers company-cabal
+                company-terraform counsel-projectile cpp-auto-include csv-mode
+                cython-mode dante dap-mode define-word devdocs diff-hl diminish
+                dired-quick-sort disable-mouse disaster docker dockerfile-mode
+                dotenv-mode drag-stuff dumb-jump eat edit-indirect ein elisp-def
+                elisp-demos elisp-slime-nav emr esh-help eshell-prompt-extras
+                eshell-z eval-sexp-fu evil-anzu evil-args evil-cleverparens
+                evil-collection evil-easymotion evil-escape evil-evilified-state
+                evil-exchange evil-goggles evil-iedit-state evil-indent-plus
+                evil-lion evil-lisp-state evil-matchit evil-mc evil-nerd-commenter
+                evil-numbers evil-org evil-surround evil-textobj-line evil-tutor
+                evil-unimpaired evil-visual-mark-mode evil-visualstar
+                expand-region eyebrowse fancy-battery flx flycheck-elsa
+                flycheck-haskell flycheck-package flycheck-pos-tip fsharp-mode
+                gendoxy gh-md git-link git-messenger git-modes git-timemachine
+                gitignore-templates gnuplot go-eldoc go-fill-struct go-gen-test
+                go-guru go-impl go-rename go-tag godoctor golden-ratio
+                google-c-style google-translate gruvbox-theme haskell-snippets
+                helm-make hide-comnt highlight-indentation highlight-numbers
+                highlight-parentheses hl-todo hlint-refactor holy-mode htmlize
+                hungry-delete hybrid-mode indent-guide info+ inspector ivy-avy
+                ivy-hydra ivy-posframe ivy-purpose ivy-xref ivy-yasnippet js-doc
+                js2-refactor json-mode json-navigator json-reformat link-hint
+                live-py-mode livid-mode lorem-ipsum lsp-haskell lsp-ivy
+                lsp-origami lsp-ui macrostep markdown-toc multi-line multi-term
+                multi-vterm nameless neotree nodejs-repl npm-mode open-junk-file
+                org-cliplink org-contrib org-download org-mime org-pomodoro
+                org-present org-projectile org-rich-yank org-superstar orgit-forge
+                overseer page-break-lines paradox password-generator pcre2el
+                persp-mode pet pip-requirements pipenv pippel poetry popwin
+                prettier-js py-isort pydoc pyenv-mode pylookup pytest quickrun
+                rainbow-delimiters restart-emacs ron-mode rustic shell-pop
+                smeargle smex space-doc spaceline spacemacs-purpose-popwin
+                spacemacs-whitespace-cleanup sphinx-doc sql-indent
+                string-edit-at-point string-inflection symbol-overlay symon
+                term-cursor terminal-here tide toc-org toml-mode tree-sitter-langs
+                typescript-mode undo-tree uuidgen vi-tilde-fringe
+                volatile-highlights web-beautify wgrep winum writeroom-mode
+                ws-butler yaml-mode yasnippet-snippets)))
+  (custom-set-faces
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   )
+  )
