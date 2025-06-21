@@ -11,48 +11,48 @@
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq backup-by-copying t)
 (setq delete-old-versions t
-  kept-new-versions 6
-  kept-old-versions 2
-  version-control t)
+      kept-new-versions 6
+      kept-old-versions 2
+      version-control t)
 (global-so-long-mode 1)
 (package-initialize)
 (dolist (pkg '(evil
-                evil-collection
-		; Themes
-                gruvbox-theme
-		solarized-theme
-		; Tools
-		tabspaces
-                projectile
-                evil-escape
-		vertico
-		vterm
-		multi-vterm
-		corfu
-		org
-		company
-		magit
-		neotree
-		org-superstar
-		all-the-icons
-		ivy
-		rg
-		; lang modes
-		lsp-haskell
-		lsp-mode
-		fsharp-mode
-		yaml-mode
-		nix-mode ;; Nix
-		go-mode ;; Golang
-                haskell-mode ;; Haskell
-                rust-mode ;; Rust
-                cc-mode ;; C/C++ 
-                python-mode ;; Python
-		typescript-mode
-		gtags-mode ;; GTAGS
-		dts-mode ;; Device tree
-		tuareg
-                ))
+               evil-collection
+                                        ; Themes
+               gruvbox-theme
+               solarized-theme
+                                        ; Tools
+               tabspaces
+               projectile
+               evil-escape
+               vertico
+               vterm
+               multi-vterm
+               corfu
+               org
+               company
+               magit
+               neotree
+               org-superstar
+               all-the-icons
+               ivy
+               rg
+                                        ; lang modes
+               lsp-haskell
+               lsp-mode
+               fsharp-mode
+               yaml-mode
+               nix-mode ;; Nix
+               go-mode ;; Golang
+               haskell-mode ;; Haskell
+               rust-mode ;; Rust
+               cc-mode ;; C/C++
+               python-mode ;; Python
+               typescript-mode
+               gtags-mode ;; GTAGS
+               dts-mode ;; Device tree
+               tuareg
+               ))
   (unless (package-installed-p pkg)
     (package-refresh-contents)
     (package-install pkg))
@@ -65,14 +65,17 @@
 (use-package lsp-mode
   :init
   :hook (
-	 (python-mode . lsp)
-	 (go-mode . lsp))
+         (python-mode . lsp)
+         (go-mode . lsp)
+         (c++-mode . lsp))
   :config
   (setq lsp-headerline-breadcrumb-enable nil)
   :commands lsp)
 
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
+(add-hook 'c-mode-hook 'lsp)
+(add-hook 'c++-mode-hook 'lsp)
 
 ;; UI settings
 (electric-pair-mode 1)
@@ -104,13 +107,14 @@
 (setq dired-dwim-target t)
 (setq dired-hide-details-hide-symlink-targets nil)
 (define-key my-semicolon-map (kbd "e") 'projectile-dired)
+(define-key my-semicolon-map (kbd "C") 'projectile-compile-project)
 (define-key my-semicolon-map (kbd "p") 'projectile-switch-project)
 (define-key my-semicolon-map (kbd "E") 'neotree-toggle)
-(define-key my-semicolon-map (kbd "S") 'rg-project)
+(define-key my-semicolon-map (kbd "S") 'projectile-ripgrep)
 
 ;; neotree config
 
-;; Theme all the gruv all the box 
+;; Theme all the gruv all the box
 (load-theme 'solarized-light t)
 
 ;; evil keybinds
@@ -128,35 +132,32 @@
 (require 'cc-mode)
 (require 'python-mode)
 
-(eval-after-load "haskell-mode"
-    '(define-key my-semicolon-map (kbd "c") 'haskell-compile))
-
 (require 'haskell-interactive-mode)
 (require 'haskell-process)
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 
 ;;(eval-after-load "haskell-cabal"
- ;   '(define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-compile))
+                                        ;   '(define-key haskell-cabal-mode-map (kbd "C-c C-c") 'haskell-compile))
 
 
 (setq projectile-completion-system 'ivy)
 
 ;; Packages
 (use-package vterm
-    :ensure t)
+  :ensure t)
 
 ;; package: tabspaces
 (use-package tabspaces
   :hook (after-init . tabspaces-mode)
   :commands (tabspaces-switch-or-create-workspace
-	     tabspaces-open-or-create-project-and-workspace)
+             tabspaces-open-or-create-project-and-workspace)
   :custom
   (tabspaces-use-filtered-buffers-as-default t)
-  (tabspaces-default-tab "Default")
+  (tabspaces-default-tab "main")
   (tabspaces-remove-to-default t)
   (tabspaces-include-buffers '("*scratch*"))
-  (tabspaces-initialize-project-with-todo t)
-  (tabspaces-todo-file-name "project-todo.org")
+  ;; (tabspaces-initialize-project-with-todo t)
+  ;; (tabspaces-todo-file-name "project-todo.org")
   ;; sessions
   (tabspaces-session t)
   (tabspaces-session-auto-restore t)
@@ -164,15 +165,15 @@
 
 (defvar tabspaces-command-map
   (let ((map (make-sparse-keymap)))
-    (define-key my-semicolon-map (kbd "C") 'tabspaces-clear-buffers)
-    (define-key my-semicolon-map (kbd "b") 'tabspaces-switch-to-buffer)
-    (define-key my-semicolon-map (kbd "d") 'tabspaces-close-workspace)
+    (define-key my-semicolon-map (kbd "c w") 'tabspaces-clear-buffers)
+    (define-key my-semicolon-map (kbd "b w") 'tabspaces-switch-to-buffer)
+    (define-key my-semicolon-map (kbd "d w") 'tabspaces-close-workspace)
     (define-key my-semicolon-map (kbd "k") 'tabspaces-kill-buffers-close-workspace)
-    (define-key my-semicolon-map (kbd "o") 'tabspaces-open-or-create-project-and-workspace)
-    (define-key my-semicolon-map (kbd "r") 'tabspaces-remove-current-buffer)
-    (define-key my-semicolon-map (kbd "R") 'tabspaces-remove-selected-buffer)
-    (define-key my-semicolon-map (kbd "s") 'tabspaces-switch-or-create-workspace)
-    (define-key my-semicolon-map (kbd "T") 'tabspaces-switch-buffer-and-tab)
+    (define-key my-semicolon-map (kbd "ow") 'tabspaces-open-or-create-project-and-workspace)
+    (define-key my-semicolon-map (kbd "rc") 'tabspaces-remove-current-buffer)
+    (define-key my-semicolon-map (kbd "rw") 'tabspaces-remove-selected-buffer)
+    (define-key my-semicolon-map (kbd "sw") 'tabspaces-switch-or-create-workspace)
+    (define-key my-semicolon-map (kbd "tw") 'tabspaces-switch-buffer-and-tab)
     map)
   "Keymap for tabspace/workspace commands after `tabspaces-keymap-prefix'.")
 
@@ -180,14 +181,14 @@
 (defun open-vterm-in-project ()
   "Open a buffer with vterm in directory of project with a window at his side"
   (interactive)
-  (let ((default-directory (projectile-project-root)))
+  (
     (split-window-below)
     (other-window 1)
-    (vterm)))
+    (project-shell)))
 
 (define-key my-semicolon-map (kbd "t") 'open-vterm-in-project)
 (define-key my-semicolon-map (kbd "g") 'magit)
-(define-key my-semicolon-map (kbd "S") 'rg-project)
+(define-key my-semicolon-map (kbd "S") 'project-find-regexp)
 
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
@@ -199,10 +200,10 @@
       org-hide-leading-stars t
       org-hide-emphasis-markers t
       org-pretty-entities t
-	  org-ellipsis "  ·")
+      org-ellipsis "  ·")
 
 (setq org-src-fontify-natively t
-	  org-src-tab-acts-natively t
+      org-src-tab-acts-natively t
       org-edit-src-content-indentation 0)
 (add-hook 'org-mode-hook 'visual-line-mode)
 (setq org-lowest-priority ?F)  ;; Gives us priorities A through F
@@ -217,17 +218,17 @@
         (70 . "#4C566A")))
 (setq org-todo-keywords
       '((sequence
-		 "TODO" "PROJ" "READ" "CHECK" "IDEA" ; Needs further action
-		 "|"
-		 "DONE")))                           ; Needs no action currently
+         "TODO" "PROJ" "READ" "CHECK" "IDEA" ; Needs further action
+         "|"
+         "DONE")))                           ; Needs no action currently
 
 (setq org-todo-keyword-faces
       '(("TODO"      :inherit (org-todo region) :foreground "#A3BE8C" :weight bold)
-		("PROJ"      :inherit (org-todo region) :foreground "#88C0D0" :weight bold)
+        ("PROJ"      :inherit (org-todo region) :foreground "#88C0D0" :weight bold)
         ("READ"      :inherit (org-todo region) :foreground "#8FBCBB" :weight bold)
-		("CHECK"     :inherit (org-todo region) :foreground "#81A1C1" :weight bold)
-		("IDEA"      :inherit (org-todo region) :foreground "#EBCB8B" :weight bold)
-		("DONE"      :inherit (org-todo region) :foreground "#30343d" :weight bold)))
+        ("CHECK"     :inherit (org-todo region) :foreground "#81A1C1" :weight bold)
+        ("IDEA"      :inherit (org-todo region) :foreground "#EBCB8B" :weight bold)
+        ("DONE"      :inherit (org-todo region) :foreground "#30343d" :weight bold)))
 
 (require 'org-superstar)
 (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1)))
@@ -241,3 +242,12 @@
 (setq-default indent-tabs-mode nil)
 (setq-default c-basic-offset 2)
 (setq-default go-basic-offset 2)
+
+;; lsp
+
+(with-eval-after-load 'lsp-ui-doc
+  (define-key lsp-ui-doc-frame-mode-map (kbd "q") nil)
+  )
+
+
+(setq projectile-indexing-method 'alien)
