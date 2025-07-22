@@ -35,6 +35,9 @@ This function should only modify configuration layer settings."
    '(
      (typescript :variables
                  typescript-backend 'tide)
+     (deft :variables
+           deft-zetteldeft t
+           )
      python
      javascript
      csv
@@ -629,6 +632,8 @@ before packages are loaded."
                                         ;(define-key lsp-ui-doc-frame-mode-map (kbd "<escape>") #'lsp-ui-doc-unfocus-frame))
 
     )
+  (setq deft-extensions '("org" "md" "txt"))
+  (setq deft-directory "~/notes")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

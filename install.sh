@@ -3,6 +3,7 @@
 echo "[AYEDERO] config"
 echo "Installing Emacs [...]"
 ln -s ~/ayedero/.emacs ~/.emacs
+ln -s ~/ayedero/.spacemacs ~/.spacemacs
 
 echo "Emacs [OK]"
 echo "Installing Helix [...]"

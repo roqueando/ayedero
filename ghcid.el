@@ -61,12 +61,12 @@ recognize the new height until you manually restart it by calling
 (defun ghcid-buffer-name ()
   (concat "*" ghcid-process-name "*"))
 
-(defun ghcid-stack-cmd (target)
-  (format "stack ghci %s --test --bench --ghci-options=-fno-code" target))
+(defun ghcid-cabal-cmd ()
+  (format "cabal repl"))
 
 ;; TODO Pass in compilation command like compilation-mode
 (defun ghcid-command (h)
-    (format "ghcid -c \"%s\" -h %s\n" (ghcid-stack-cmd ghcid-target) h))
+    (format "ghcid --command \"%s\" --allow-eval\n" (ghcid-cabal-cmd) h))
 
 (defun ghcid-get-buffer ()
   "Create or reuse a ghcid buffer with the configured name and
@@ -97,7 +97,7 @@ exactly. See `ghcid-mode'."
 
       (term-exec (ghcid-buffer-name)
            ghcid-process-name
-           "/bin/bash"
+           "/bin/zsh"
            nil
            (list "-c" (ghcid-command height)))
 

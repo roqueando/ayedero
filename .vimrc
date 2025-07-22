@@ -19,8 +19,6 @@ Plug 'vim-airline/vim-airline-themes'
 " Gutentags
 Plug 'ludovicchabant/vim-gutentags'
 
-" Copilot
-Plug 'github/copilot.vim'
 
 " Ionide for F#
 Plug 'ionide/Ionide-vim'
@@ -30,6 +28,9 @@ Plug 'sukima/xmledit'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'jreybert/vimagit'
+Plug 'zk-org/zk-nvim'
+Plug 'maxmx03/solarized.nvim'
+
 call plug#end()
 
 filetype plugin indent on
@@ -105,3 +106,8 @@ let g:gutentags_cache_dir = '~/.tags'
 hi Normal guibg=NONE ctermbg=NONE
 
 nnoremap <leader>g :Magit<CR>
+
+"" build things
+nnoremap <silent><leader>C :make build<CR>:copen<CR>
+nnoremap <silent><leader>ct :make test<CR>
+autocmd FileType go nnoremap <buffer> <silent> <leader>ct :! go test -v ./

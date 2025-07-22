@@ -1,4 +1,4 @@
-theme = "gruvbox_light_hard"
+theme = "solarized_light"
 
 [editor]
 auto-format = true

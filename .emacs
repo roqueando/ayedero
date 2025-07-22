@@ -1,5 +1,6 @@
 (setq custom-file "~/.emacs.custom.el")
 (load "~/ayedero/ghcid.el")
+(load "~/ayedero/odin-mode.el")
 (setenv "PATH" (concat (getenv "PATH") ":/opt/homebrew/bin"))
 (add-to-list 'exec-path "/opt/homebrew/bin")
 (setenv "PATH" (concat (getenv "HOME") "/.ghcup/bin:" (getenv "PATH")))
@@ -18,31 +19,34 @@
 (package-initialize)
 (dolist (pkg '(evil
                evil-collection
-                                        ; Themes
-               gruvbox-theme
+               ;; Themes
                solarized-theme
-                                        ; Tools
+               ;; Tools
                tabspaces
                projectile
                evil-escape
                vertico
+               direnv
                vterm
-               multi-vterm
+               counsel
                corfu
                org
+               deft
+               zetteldeft
                company
                magit
-               neotree
                org-superstar
                all-the-icons
                ivy
                rg
-                                        ; lang modes
+               ;; lang modes
                lsp-haskell
                lsp-mode
                fsharp-mode
                yaml-mode
-               nix-mode ;; Nix
+               dart-mode
+               julia-mode
+               nix-mode
                go-mode ;; Golang
                haskell-mode ;; Haskell
                rust-mode ;; Rust
@@ -51,6 +55,9 @@
                typescript-mode
                gtags-mode ;; GTAGS
                dts-mode ;; Device tree
+               cmake-mode
+               web-mode
+               swift-mode
                tuareg
                ))
   (unless (package-installed-p pkg)
@@ -61,27 +68,47 @@
   :hook ((emacs-startup . gtags-mode)))
 (setq-default evil-want-keybinding nil)
 
-;; LSP-MODE settings
+(setq lsp-go-env '(
+                   (GOFLAGS . "-tags=tinygo")
+                   )
+      )
+;; ;; LSP-MODE settings
 (use-package lsp-mode
   :init
   :hook (
          (python-mode . lsp)
          (go-mode . lsp)
-         (c++-mode . lsp))
+         (c++-mode . lsp)
+         (fsharp-mode . lsp)
+         (rust-mode . lsp)
+         (dart-mode . lsp)
+         (swift-mode . lsp)
+         )
   :config
   (setq lsp-headerline-breadcrumb-enable nil)
+  (lsp-register-custom-settings
+   '(("gopls.env" (
+                   ("GOFLAGS" . "-tags=tinygo")
+                   ))))
   :commands lsp)
 
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
 (add-hook 'c-mode-hook 'lsp)
 (add-hook 'c++-mode-hook 'lsp)
+(add-hook 'fsharp-mode-hook 'lsp)
+(add-hook 'rust-mode-hook 'lsp)
+(add-hook 'dart-mode-hook 'lsp)
 
 ;; UI settings
 (electric-pair-mode 1)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
-(scroll-bar-mode 0)
+(when (fboundp 'scroll-bar-mode)
+  (if (display-graphic-p)
+      (scroll-bar-mode 0)   ;; ativa se for GUI
+    (scroll-bar-mode -1)))  ;; desativa se for terminal
+;; (scroll-bar-mode 0)
 (column-number-mode 1)
 (display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
@@ -109,8 +136,7 @@
 (define-key my-semicolon-map (kbd "e") 'projectile-dired)
 (define-key my-semicolon-map (kbd "C") 'projectile-compile-project)
 (define-key my-semicolon-map (kbd "p") 'projectile-switch-project)
-(define-key my-semicolon-map (kbd "E") 'neotree-toggle)
-(define-key my-semicolon-map (kbd "S") 'projectile-ripgrep)
+(define-key my-semicolon-map (kbd "S") 'counsel-rg)
 
 ;; neotree config
 
@@ -181,14 +207,14 @@
 (defun open-vterm-in-project ()
   "Open a buffer with vterm in directory of project with a window at his side"
   (interactive)
-  (
+  (let ((default-directory (projectile-project-root)))
     (split-window-below)
     (other-window 1)
-    (project-shell)))
+    (vterm)))
 
 (define-key my-semicolon-map (kbd "t") 'open-vterm-in-project)
 (define-key my-semicolon-map (kbd "g") 'magit)
-(define-key my-semicolon-map (kbd "S") 'project-find-regexp)
+(define-key my-semicolon-map (kbd "S") 'counsel-rg)
 
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
@@ -251,3 +277,58 @@
 
 
 (setq projectile-indexing-method 'alien)
+(setq ring-bell-function 'ignore)
+
+(use-package deft
+  :ensure t
+  :init
+    (setq deft-extensions '("org" "md" "txt")
+          deft-use-filename-as-title t))
+
+(use-package zetteldeft
+  :ensure t
+  :after deft
+  :config (zetteldeft-set-classic-keybindings))
+
+
+(setq zetteldeft-link-indicator "@"
+      zetteldeft-id-format "%Y-%m-%d-%H%M"
+      zetteldeft-id-regex "[0-9]\\{4\\}\\(-[0-9]\\{2,\\}\\)\\{3\\}"
+      zetteldeft-tag-regex "[#][a-z-]+")
+
+(define-key my-semicolon-map (kbd "nf") 'zetteldeft-new-file)
+(define-key my-semicolon-map (kbd "nt") 'zetteldeft-tag-insert)
+(define-key my-semicolon-map (kbd "ns") 'zetteldeft-search-tag)
+
+;;; I prefer cmd key for meta
+(setq mac-option-key-is-meta nil
+      mac-command-key-is-meta t
+      mac-command-modifier 'meta
+      mac-option-modifier 'none)
+(setq lsp-inlay-hint-enable t)
+
+;; dante
+(use-package attrap
+  :ensure t)
+
+(use-package dante
+  :ensure t
+  :after haskell-mode
+  :commands 'dante-mode
+  :init
+  (add-hook 'haskell-mode-hook 'flycheck-mode)
+  (add-hook 'haskell-mode-hook 'dante-mode)
+  :config
+  (flycheck-add-next-checker 'haskell-dante '(info . haskell-hlint)))
+
+
+
+
+;; Swift editing support
+(use-package swift-mode
+    :ensure t
+    :mode "\\.swift\\'"
+    :interpreter "swift")
+
+(add-to-list 'auto-mode-alist '("\\.overlay\\'" . dts-mode))
+(global-set-key (kbd "TAB") 'self-insert-command)
