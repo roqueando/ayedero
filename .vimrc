@@ -19,28 +19,20 @@ Plug 'vim-airline/vim-airline-themes'
 " Gutentags
 Plug 'ludovicchabant/vim-gutentags'
 
-
-" Ionide for F#
-Plug 'ionide/Ionide-vim'
-Plug 'slint-ui/vim-slint'
 Plug 'sukima/xmledit'
 
-Plug 'xolox/vim-notes'
-Plug 'xolox/vim-misc'
 Plug 'jreybert/vimagit'
 Plug 'zk-org/zk-nvim'
-Plug 'maxmx03/solarized.nvim'
-
 call plug#end()
 
 filetype plugin indent on
 syntax enable
 
 " Sets
-set tag=.tags
+set tag=$HOME/.tags
 set tag+=$HOME/.tags
 set clipboard^=unnamed
-set background=light
+set background=dark
 set relativenumber
 set number
 set showmatch
@@ -109,5 +101,6 @@ nnoremap <leader>g :Magit<CR>
 
 "" build things
 nnoremap <silent><leader>C :make build<CR>:copen<CR>
-nnoremap <silent><leader>ct :make test<CR>
+nnoremap <silent><leader>A :make all<CR>:copen<CR>
+nnoremap <silent><leader>T :make test<CR>
 autocmd FileType go nnoremap <buffer> <silent> <leader>ct :! go test -v ./

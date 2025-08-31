@@ -21,6 +21,7 @@
                evil-collection
                ;; Themes
                solarized-theme
+               gruvbox-theme
                ;; Tools
                tabspaces
                projectile
@@ -59,6 +60,7 @@
                web-mode
                swift-mode
                tuareg
+               fold-this
                ))
   (unless (package-installed-p pkg)
     (package-refresh-contents)
@@ -99,6 +101,8 @@
 (add-hook 'fsharp-mode-hook 'lsp)
 (add-hook 'rust-mode-hook 'lsp)
 (add-hook 'dart-mode-hook 'lsp)
+(add-hook 'odin-mode-hook #'lsp-deferred)
+(add-hook 'odin-ts-mode-hook #'lsp-deferred) 
 
 ;; UI settings
 (electric-pair-mode 1)
@@ -141,7 +145,7 @@
 ;; neotree config
 
 ;; Theme all the gruv all the box
-(load-theme 'solarized-light t)
+(load-theme 'gruvbox-dark-medium t)
 
 ;; evil keybinds
 (define-key evil-normal-state-map (kbd "; w") 'save-buffer)
@@ -332,3 +336,9 @@
 
 (add-to-list 'auto-mode-alist '("\\.overlay\\'" . dts-mode))
 (global-set-key (kbd "TAB") 'self-insert-command)
+
+(require 'fold-this)
+(add-hook 'prog-mode-hook #'hs-minor-mode)
+
+(define-key my-semicolon-map (kbd "cf") 'hs-hide-block)
+(define-key my-semicolon-map (kbd "cu") 'hs-show-block)
